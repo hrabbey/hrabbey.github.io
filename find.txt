@@ -1,0 +1,46 @@
+The Item you picked is not ready yet.
+
+
+The nonsensical list below is all the items I have to find yet, so
+ please be patient.
+
+
+Make all have same colors/ background.??
+
+
+"McNair Hall" Info from gopher for 'resume.html' Fall Address
+
+"M.T.U." Info from WWW? / gopher for 'resume.html' Education
+
+"Electrical Engineering" "Computer Engineering Option" Info from www.ee 
+for 'resume.html' Education
+
+"Shiga-ken" Info / Picture? at biwako&other(shigaMED)@?.ac.jp for 'resume.html' in Education, JCMU
+
+"Japan" Info @ Japan Info @ ?, in 'resume.html' Education, JCMU
+
+"Total Petroleum, Inc." 's Home Page? in 'resume.html' Experience & 'allexp.html'
+
+"Wadsworth Residence Hall" Info by gopher in 'resume.html' Experience & 'allexp.html'
+
+"snow" Houghton Snow Fall Info @techalum.gopher in 'resume.html' Experience & allexp.html
+
+"life, the universe, and everything" Hitch Hiker's Guide to the Galaxy Info found through WebBrowser in 'resume.html' in Activities, lunchgroup; in 'allact.html' in lunchgroup
+
+"e-mail" lunchgroup-l description @sjwolfe lunch page or on gopher in 'resume.html' in Activities, lunchgrp; in 'allact.html' lunchgroup
+
+INLINE IMAGE "house" a picture of my house, or fake, in 'ancestrl.html'
+
+INLINE IMAGE "my room" a picture of E501 COEd, or a fake in 'myroom.html'
+
+"Monty Python" Info / Page,via WebBrowser, in 'allact.html' in lunchgroup
+
+Put 'listproj.txt' in hrabbey/progs/Init/listproj.txt with list of projects & plans.
+
+Mr. Robert Bohnsack (sp?) E.E. advisor's phone, fax, and mail address in 'referenc.html'
+or make a link to MTU'S CSO phonebook so automatically updated.
+
+More references, current, in 'referenc.html'
+
+LeftHanders Association for HOME page
+

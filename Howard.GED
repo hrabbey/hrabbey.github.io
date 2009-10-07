@@ -1,0 +1,4286 @@
+0 HEAD
+1 SOUR BROSKEEP
+2 VERS 6.2.15 WINDOWS
+1 DEST BROSKEEP (BROTHERS KEEPER)
+1 DATE 25 APR 2006
+1 CHAR ANSEL
+1 FILE C:\FTW\Howard.GED
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+0 @I1@ INDI
+1 NAME George Henry /Clark/
+1 SEX M
+1 BIRT
+2 DATE 26 NOV 1870
+2 PLAC Riga, Lenawee County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 29 JUL 1957
+2 PLAC Roseville, Erin Township, Macomb County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 DATE 1 AUG 1957
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S45@
+2 SOUR @S21@
+1 REFN C:\BKData\Clark, George Henry 26 Nov 1870.txt
+2 SOUR @S19@
+2 SOUR @S46@
+1 REFN C:\Gen Pic\Clark, George Henry & Minnie Alice m20 Nov 1895.jpg
+2 SOUR @S19@
+2 SOUR @S46@
+1 OCCU Farmer/Carpenter/Butcher
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: George Henry left home when he was 12 years old.  He worked for a Farmer, a Butcher, a Carpenter and as a Factory Worker.  His mother died young and his father remarried Alti.
+2 CONT ____________________
+2 CONT    Records: Cemetery: MI: Calhoun: George was buried in Block F, Lot 67.
+2 CONT ____________________
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Minnie Alice /Collyer/
+1 SEX F
+1 BIRT
+2 DATE 7 SEP 1872
+2 PLAC Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 3 OCT 1948
+2 PLAC Roseville, Erin Township, Macomb County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 7 OCT 1948
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Collyer, Minnie Alice  7 Sep 1872.txt
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, George Henry & Minnie Alice m20 Nov 1895.jpg
+1 NOTE ____________________
+2 CONT      Clark, Ruth and Edith: Minnie was buried in Block F, Lot 67.
+2 CONT    Cousins of Minnie: Edmond Collyer b. Dec  age 92 yrs 3 mos, buried 19 Dec 1946; William G. Collyer died 27 Dec 1946 age 88.
+2 CONT    Children of some or one of the above: Burr Collyer, Albert Collyer; Nellie Collyer married Unknown Racey and had daughter Beulah Racey.
+2 CONT ____________________
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME Jane Elizabeth /Ruell/
+1 SEX F
+1 BIRT
+2 DATE 19 NOV 1843
+2 PLAC Pittsford, Monroe County, New York
+2 SOUR @S19@
+2 SOUR @S49@
+3 PAGE page 221
+1 CENS
+2 DATE 1850
+2 PLAC Pittsford, Monroe County, New York
+2 SOUR @S49@
+3 PAGE page 221
+1 DEAT
+2 DATE 19 JUL 1899
+2 PLAC Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 22 JUL 1899
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Ruell, Jane Elizabeth 19 Nov 1843.txt
+2 SOUR @S19@
+2 SOUR @S48@
+2 SOUR @S49@
+3 PAGE page 221
+1 NOTE ____________________
+2 CONT    Ruth and Edith Clark: Jane was of English descent.
+2 CONT ____________________
+2 CONT    Fairview Cemetery Caretaker: Jane was buried in Block F, Lot 20.
+2 CONT ____________________
+2 CONT      Census: 1850: New York:
+2 CONT    New York 1850 Pittsford, Monroe, New York 20th day of August 1850: Dwelling house numbered in the order of visitation: 755 Family numbered in the order of visitation: 755; Jane E. Ruell age 7 F born New York attended school within the year.
+2 CONT ____________________
+1 FAMS @F2@
+0 @I4@ INDI
+1 NAME Paul E. /Collyer/
+1 SEX M
+1 BIRT
+2 DATE 26 JUN 1835
+2 PLAC Great Horwood, Buckinghamshire, England
+2 SOUR @S19@
+1 DEAT
+2 DATE 29 AUG 1905
+2 PLAC Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 1 SEP 1905
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 RESI
+2 PLAC New York
+1 REFN C:\BKData\Collyer, Paul E 26 Jun 1835.txt
+2 SOUR @S19@
+2 SOUR @S48@
+1 OCCU Farmer
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT      Clark, Ruth and Edith:    Check
+2 CONT    Paul died suddenly.  Paperwork sent by Ruth Clark states Paul and Jane were married October 31, 1866.
+2 CONT    Family Record sent by Ruth Clark states Paul and Jane were married 13 Oct 1866.
+2 CONT ____________________
+2 CONT   Fairview Cemetery Caretaker:  Paul was buried in Block F, Lot 20.
+2 CONT ____________________
+1 FAMS @F2@
+0 @I5@ INDI
+1 NAME Luella May /Clark/
+1 SEX F
+1 BIRT
+2 DATE 17 DEC 1896
+2 PLAC Calhoun County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 4 DEC 1898
+2 PLAC Calhoun County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE DEC 1898
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, Luella May 17 Dec 1896.txt
+2 SOUR @S46@
+1 REFN Clk04131
+1 NOTE ____________________
+2 CONT    Records: Cemetery: MI: Calhoun: Homer: Fairview: Luella was buried in Block F, Lot 67.
+2 CONT ____________________
+1 FAMC @F1@
+0 @I6@ INDI
+1 NAME Maude Belle /Clark/
+1 SEX F
+1 BIRT
+2 DATE 7 FEB 1899
+2 PLAC Eckford Township, Calhoun County, Michigan
+2 SOUR @S18@
+1 DEAT
+2 DATE 9 SEP 1963
+2 PLAC Mt. Clemens, Macomb County, Michigan
+2 SOUR @S21@
+2 SOUR @S12@
+2 SOUR @S22@
+2 SOUR @S20@
+1 BURI
+2 DATE 12 SEP 1963
+2 PLAC Cadillac Memorial Gardens East, Clinton Township, Macomb County, Michigan
+2 SOUR @S23@
+1 GRAD
+2 DATE 23 MAR 1923
+2 PLAC Western State Normal School, Kalamazoo, Kalamazoo County, Michigan
+2 SOUR @S24@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Clark, Maude Belle 7 Feb 1899.txt
+1 REFN C:\Gen Pic\Clark, Maude Belle 7 Feb 1899.jpg
+1 REFN C:\Gen Pic\Abbey, Harley & Maude m12 Jun 1926.jpg
+1 OCCU School Teacher
+1 NOTE ____________________
+2 CONT    Calhoun County Records: Maude is listed as Manda M. Clark in Calhoun County records and changed to Maude Belle Clark.
+2 CONT ____________________
+2 CONT    Ruth and Edith Clark: Gersham had white hair when Maude met him, probably in his 80's at the time.
+2 CONT ____________________
+2 CONT             Letter to Parents:
+2 CONT           Notice from Huron Park School: September 9, 1963
+2 CONT      Dear Parents:
+2 CONT    Mrs. Maude Abbey, a fifth grade teacher who has been associated with the Huron Park
+2 CONT Elementary School since its beginning, passed away in St. Joseph Hospital Monday
+2 CONT Morning.
+2 CONT    Her pleasing personality and keen interest in education as well as her desire to help mould
+2 CONT the characters of girls and boys will serve to remind us of the passing of a great soul.
+2 CONT Words fail to express our sorrow in the great loss of Mrs. Abbey to our school system and
+2 CONT community.
+2 CONT    Her body will lie in-state at the Clyne Funeral Home on Gratiot Avenue in East Detroit
+2 CONT until Thursday afternoon at 2:30 p.m. when a memorial service will be held there.
+2 CONT    The Huron Park Elementary School will be dismissed at 1:45 p.m. on Thursday,
+2 CONT September 12, as a tribute to Mrs. Abbey.
+2 CONT 			Staff, Huron Park Elementery School
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Maude Belle 7 Feb 1899.jpg
+1 SOUR @S18@
+1 SOUR @S19@
+1 SOUR @S20@
+1 FAMS @F3@
+1 FAMC @F1@
+0 @I7@ INDI
+1 NAME Harley Ralph /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 14 JUN 1888
+2 PLAC Catatonk, Tioga County, New York
+2 SOUR @S2@
+3 PAGE page 362
+2 SOUR @S1@
+1 DEAT
+2 DATE 20 AUG 1968
+2 PLAC Armada, Macomb County, Michigan
+2 SOUR @S11@
+2 SOUR @S12@
+2 SOUR @S13@
+1 BURI
+2 DATE 23 AUG 1968
+2 PLAC Cadillac Memorial Gardens East, Clinton Township, Macomb County, Michigan
+2 SOUR @S11@
+1 CENS
+2 DATE 1900
+2 PLAC Campbell, Steuben County, New York
+2 SOUR @S14@
+1 CENS
+2 DATE 1920
+2 PLAC Erin, Macomb County, Michigan
+2 SOUR @S15@
+1 REFN C:\BKData Abbey\Abbey, Harley Ralph 14 Jun 1888.txt
+2 SOUR @S2@
+2 SOUR @S14@
+1 REFN C:\BKData Abbey\Abbey, Harley Ralph 14 Jun 1888 pvt.txt
+1 REFN C:\Gen Pic\Abbey, Harley Ralph 14 Jun 1888 1.jpg
+1 REFN C:\Gen Pic\Abbey, Harley Ralph 14 Jun 1888 2.jpg
+1 REFN C:\Gen Pic\Abbey, Harley & Maude m12 Jun 1926.jpg
+1 REFN HRA10000  Harley01.txt
+1 OCCU Tool Maker
+2 SOUR @S11@
+2 SOUR @S16@
+1 _MILT Defered - Critical Occupation
+2 SOUR @S17@
+1 NOTE ____________________
+2 CONT    Abbe-Abbey Genealogy : Harley b. 14 Jun 1889.
+2 CONT ____________________
+2 CONT Name Home in 1900 (City,County,State)Estimated Birth Year Birthplace Race Relation to Head-of-house
+2 CONT Harley R Abbey Campbell, Steuben, New York abt 1889 New York White Son
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Harley Ralph 14 Jun 1888 1.jpg
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Harley Ralph 14 Jun 1888 2.jpg
+1 FAMS @F3@
+1 FAMC @F4@
+0 @I8@ INDI
+1 NAME Jennie Luella /Witter/
+1 SEX F
+1 BIRT
+2 DATE 18 APR 1867
+2 SOUR @S10@
+1 DEAT
+2 DATE 1942
+2 SOUR @S4@
+2 SOUR @S10@
+1 BURI
+2 PLAC Coopers Plains, Steuben County, New York
+2 SOUR @S4@
+1 CENS
+2 DATE 1880
+2 PLAC Verona, Oneida County, New York
+2 SOUR @S9@
+1 REFN C:\BKData\Witter, Jennie Luella 18 Apr 1867.txt
+2 SOUR @S9@
+1 REFN C:\BKData\Witter, William 1828.txt
+1 REFN C:\Gen Pic\Abbey, Herbert Lee & Jennie m21 Nov 1888.jpg
+1 AFN  Pin #364191
+2 SOUR @S8@
+1 NOTE ____________________
+2 CONT    Possibly this Jennie Witter: must be checked.
+2 CONT ____________________
+2 CONT           Source Information: Census Place Vernona, Oneida, New York  Family History Library Film   1254903 NA Film Number   T9-0903 Page Number   341A
+2 CONT      1880 United States Census
+2 CONT    Household:
+2 CONT  Name  Relation Marital Status Gender Race Age Birthplace Occupation Father's Birthplace Mother's Birthplace
+2 CONT  Wm. E. WITTERS   Self   M   Male   W   47   NY   Farmer   RI   NY
+2 CONT  Louisa WITTERS   Wife   M   Female   W   46   NY   Keeping House   NY   NY
+2 CONT  Eva M. WITTERS   Dau   S   Female   W   18   NY   At School   NY   NY
+2 CONT  Alace L. WITTERS   Dau   S   Female   W   16   NY   At School   NY   NY
+2 CONT  Sarah J. WITTERS   Dau   S   Female   W   14   NY   At School   NY   NY
+2 CONT  Jennie L. WITTERS   Dau   S   Female   W   12   NY   At School   NY   NY
+2 CONT  Carrie B. WITTERS   Dau   S   Female   W   10   NY   At School   NY   NY
+2 CONT  Frank WILLIAMS   Nephew   S   Male   W   22   NY   Teaching School   NY   NY
+2 CONT ____________________
+2 CONT    Flynn , Kathy: Jennie Witter,1 b. <1864> in New York, census 1880 in Owego, Tioga County, New York. Daughter of William Witter, b. <1828> in New York, census 1880 in Owego, Tioga County, New York.  He married Amanda Unknown.
+2 CONT    Amanda Unknown, b. <1829> in Connecticut, census 1880 in Owego, Tioga County, New York.
+2 CONT ____________________
+1 NOTE ____________________
+2 CONT    Flynn, Kathy: William Witter, b. <1828> in New York, census 1880 in Owego, Tioga County, New York.  He married Amanda Unknown.
+2 CONT    Amanda Unknown, b. <1829> in Connecticut, census 1880 in Owego, Tioga County, New York.
+2 CONT ____________________
+1 SOUR @S9@
+1 SOUR @S5@
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Herbert Lee /Abbey/, {757}.
+2 SOUR @S1@
+1 SEX M
+1 BIRT
+2 DATE 10 JUL 1867
+2 PLAC Newark Valley, Tioga County, New York
+2 SOUR @S2@
+3 PAGE page 362
+2 SOUR @S3@
+1 DEAT
+2 DATE 15 NOV 1942
+2 PLAC Corning, Steuben County, New York
+2 SOUR @S4@
+2 SOUR @S3@
+1 BURI
+2 PLAC Coopers Plains Cemetery, Erwin, Steuben County, New York
+2 SOUR @S4@
+1 CENS
+2 DATE 1870
+2 PLAC Caroline, Tompkins County, New York
+2 SOUR @S5@
+1 CENS
+2 DATE 1880
+2 PLAC Candor, Tioga County, New York
+2 SOUR @S5@
+1 REFN C:\BKData Abbey\Abbey, Herbert Lee {757} 10 Jul 1867.txt
+1 REFN C:\ClevBook\{757} Abbey, Herbert Lee 10 Jul 1867.txt
+2 SOUR @S6@
+2 SOUR @S7@
+2 SOUR @S1@
+1 REFN C:\Gen Pic\Abbey, Herbert Lee & Jennie m21 Nov 1888.jpg
+1 OCCU Glass Factory Employee
+2 SOUR @S7@
+1 AFN  Pin #364042
+2 SOUR @S8@
+1 NOTE ____________________
+2 CONT    Researchers for this line are:
+2 CONT Abbey, Charles; cabbey39@yahoo.com
+2 CONT ____________________
+2 CONT    Abbey, Dennis Sidney and Marilyn: Herbert Lee and Charlotte went from New York State to Minot, North Dakota with her four children.  Sometime after their having three children, she left him and returned to New York State without him and he too
+2 CONC k up with her daughter Emma and had two more children. (d. & bur. abt. 1942/3.).
+2 CONT ____________________
+2 CONT    Steuben County, New York, City Directory 1891: Herbert L. Abbey glass factory employee Resided at 109 Chestnut, Corning, New York.
+2 CONT ____________________
+1 FAMS @F4@
+0 @I10@ INDI
+1 NAME Vera Louise /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 21 APR 1928
+2 PLAC Halfway, Erin Township, Macomb County, Michigan
+2 SOUR @S26@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Roseville, Macomb County, Michigan
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 CENS
+2 DATE 1930
+2 PLAC Roseville, Macomb County, Michigan
+2 SOUR @S5@
+1 REFN C:\Gen Pic\Abbey, Vera Louise 21 Apr 1928.jpg
+1 REFN C:\Gen Pic\Crane Roy & Vera Louise (Abbey) m 2 Aug 1947.jpg
+1 REFN no data C:\BKData Abbey\Abbey, Vera Louise 21 Apr 1928.txt
+1 OCCU Secretary & Home Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Vera Louise 21 Apr 1928.jpg
+1 FAMS @F5@
+1 FAMC @F3@
+0 @I11@ INDI
+1 NAME Roy  /Crane/
+1 SEX M
+1 BIRT
+2 DATE 7 JUN 1923
+2 PLAC Farmington, Oakland County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\Gen Pic\Crane Roy & Vera Louise (Abbey) m 2 Aug 1947.jpg
+2 DATE PRIVATE
+1 REFN no data C:\BKData\Crane, Roy  7 Jun 1923.txt
+1 OCCU Teacher
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F5@
+1 FAMC @F6@
+0 @I12@ INDI
+1 NAME Mary Ruth /Hoke/
+1 SEX F
+1 BIRT
+2 DATE 23 JAN 1897
+2 PLAC Salem, Washington County, Indiana
+2 SOUR @S26@
+1 FAMS @F6@
+0 @I13@ INDI
+1 NAME John Gardner /Crane/
+1 SEX M
+1 BIRT
+2 DATE 30 OCT 1897
+2 PLAC Salem, Washington County, Indiana
+2 SOUR @S26@
+1 DEAT
+2 DATE 3 NOV 1971
+2 PLAC Salem, Washington County, Indiana
+2 SOUR @S26@
+1 BURI
+2 PLAC Livonia, Washington County, Indiana
+2 SOUR @S26@
+1 FAMS @F6@
+0 @I14@ INDI
+1 NAME Nancy Ruth /Crane/
+1 SEX F
+1 BIRT
+2 DATE 10 DEC 1948
+2 PLAC St. Francis Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Redeemer Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Crane, Nancy Ruth 10 Dec 1948.txt
+2 SOUR @S26@
+1 OCCU Teacher/Librarian
+2 DATE PRIVATE
+2 SOUR @S26@
+1 NOTE ____________________
+2 CONT    Crane, Vera: John Winston Abbey was the ring bearer at the wedding and Linda Crane was the flower girl.
+2 CONT ____________________
+1 FAMS @F7@
+1 FAMC @F5@
+0 @I15@ INDI
+1 NAME David Ottis /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 30 JUN 1949
+2 PLAC Charlotte, Chester Township, Eaton County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU University Teacher-History
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F7@
+1 FAMC @F8@
+0 @I16@ INDI
+1 NAME Julia  /Rosser/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Music Teacher
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F8@
+0 @I17@ INDI
+1 NAME Ottis  /McGuire/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Teacher
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F8@
+0 @I18@ INDI
+1 NAME Cynthia Ann /McGuire/
+1 SEX F
+1 BIRT
+2 DATE 18 JUL 1972
+2 PLAC Barge Memorial Hospital, Bob Jones University, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Nurse/Teacher
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMC @F7@
+0 @I19@ INDI
+1 NAME Patricia Ruth /McGuire/
+1 SEX F
+1 BIRT
+2 DATE 29 SEP 1973
+2 PLAC Barge Memorial Hospital, Bob Jones University, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Day Care Worker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F9@
+1 FAMC @F7@
+0 @I20@ INDI
+1 NAME Harlan  /Vasquez/
+1 SEX M
+1 BIRT
+2 DATE 29 APR 1970
+2 PLAC Minneapolis, Hennepin County, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Financial Advisor
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F9@
+1 FAMC @F10@
+0 @I21@ INDI
+1 NAME Karen  /(Vasquez)/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F10@
+0 @I22@ INDI
+1 NAME Lloyd  /Vasquez/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F10@
+0 @I23@ INDI
+1 NAME Peyton Rose /Vasquez/
+1 SEX F
+1 BIRT
+2 DATE 27 SEP 1998
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F9@
+0 @I24@ INDI
+1 NAME Michael David /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 25 JUN 1975
+2 PLAC Barge Memorial Hospital, Bob Jones University, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F11@
+1 FAMC @F7@
+0 @I25@ INDI
+1 NAME Anna  /Perkins/
+1 SEX F
+1 BIRT
+2 DATE 6 SEP 1978
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F11@
+0 @I26@ INDI
+1 NAME Daniel Roy /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 8 MAY 1978
+2 PLAC Barge Memorial Hospital, Bob Jones University, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F7@
+0 @I27@ INDI
+1 NAME Darrel Jay /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 21 AUG 1980
+2 PLAC Barge Memorial Hospital, Bob Jones University, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Restraunt Manager
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMC @F7@
+0 @I28@ INDI
+1 NAME Matthew Alan /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 29 JUL 1984
+2 PLAC Owatonna, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Paper Route
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMC @F7@
+0 @I29@ INDI
+1 NAME Andrew Paul /McGuire/
+1 SEX M
+1 BIRT
+2 DATE 11 APR 1987
+2 PLAC Owatonna, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Paper Route
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMC @F7@
+0 @I30@ INDI
+1 NAME Darlene Marie /Crane/
+1 SEX F
+1 BIRT
+2 DATE 15 JUL 1950
+2 PLAC St. Francis Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Redeemer Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F12@
+1 FAMC @F5@
+0 @I31@ INDI
+1 NAME Richard Joseph /Sylvia/
+1 SEX M
+1 BIRT
+2 DATE 27 APR 1950
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Redeemer Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Pipefitter-Det. Edison
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F12@
+1 FAMC @F13@
+0 @I32@ INDI
+1 NAME Sophia  /Barton/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F13@
+0 @I33@ INDI
+1 NAME husband  /Sylvia/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F13@
+0 @I34@ INDI
+1 NAME Richard Joseph /Sylvia/
+2 _AKAN Richard Joseph Sylvia, Junior
+3 SOUR @S26@
+1 SEX M
+1 BIRT
+2 DATE 4 SEP 1972
+2 PLAC Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Marysville Baptist Church, Marysville, St. Clair County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Sylvia, Richard Joseph  4 Sep 1972.txt
+2 SOUR @S26@
+1 OCCU Welder
+2 DATE PRIVATE
+2 SOUR @S26@
+1 NOTE ____________________
+2 CONT    Crane, Vera: Richard & Diane married at His parents house,   Saturday, August twentieth Nineteen hundred and Ninety-four at one-thirty in the afternoon.
+2 CONT ____________________
+1 FAMS @F14@
+1 FAMC @F12@
+0 @I35@ INDI
+1 NAME Diane Sue /Wild/
+1 SEX F
+1 BIRT
+2 DATE 2 NOV 1975
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F14@
+0 @I36@ INDI
+1 NAME Richard Brady /Sylvia/
+1 SEX M
+1 BIRT
+2 DATE 20 SEP 1995
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F14@
+0 @I37@ INDI
+1 NAME Meghan Noreen /Sylvia/
+1 SEX F
+1 BIRT
+2 DATE 7 OCT 1997
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F14@
+0 @I38@ INDI
+1 NAME Audrey Jillian /Sylvia/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S33@
+1 FAMC @F14@
+0 @I39@ INDI
+1 NAME James Alan /Sylvia/
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1975
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Marysville Baptist Church, Marysville, St. Clair County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F15@
+1 FAMC @F12@
+0 @I40@ INDI
+1 NAME Laura  /(Sylvia)/
+1 SEX F
+1 BIRT
+2 DATE 26 JUL 1975
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F15@
+0 @I41@ INDI
+1 NAME Breanna Marie /Sylvia/
+1 SEX F
+1 BIRT
+2 DATE 17 JUL 1996
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F15@
+0 @I42@ INDI
+1 NAME Sarah Marie /Sylvia/
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 1980
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Sylvia, Sarah Marie  9 Jul 1980.txt
+2 SOUR @S33@
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F16@
+1 FAMC @F12@
+0 @I43@ INDI
+1 NAME Scott Andrew /Webb/
+1 SEX M
+1 BIRT
+2 DATE 28 NOV 1978
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Electrician
+2 DATE PRIVATE
+2 SOUR @S26@
+1 REFN C:\BKData\Sylvia, Sarah Marie 1980.txt
+2 SOUR @S33@
+1 FAMS @F16@
+0 @I44@ INDI
+1 NAME Austin Andrew /Webb/
+1 SEX M
+1 BIRT
+2 DATE 2 MAY 1997
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F16@
+0 @I45@ INDI
+1 NAME Alyssa  /Webb/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F16@
+0 @I46@ INDI
+1 NAME Ashley  /Webb/
+1 SEX F
+1 BIRT
+2 DATE 26 SEP 2000
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F16@
+0 @I47@ INDI
+1 NAME Heidi Lynn /Sylvia/
+1 SEX F
+1 BIRT
+2 DATE 17 OCT 1983
+2 PLAC Port Huron, St. Clair County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F12@
+0 @I48@ INDI
+1 NAME Charles Benjamin /Sylvia/
+1 SEX M
+1 BIRT
+2 DATE 8 JUL 1985
+2 PLAC Port Huron, St. Clair County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F12@
+0 @I49@ INDI
+1 NAME Katherine Grace /Sylvia/
+1 SEX F
+1 BIRT
+2 DATE 18 APR 1989
+2 PLAC Port Huron, St. Clair County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F12@
+0 @I50@ INDI
+1 NAME Marcia Ann /Crane/
+1 SEX F
+1 BIRT
+2 DATE 15 AUG 1952
+2 PLAC St. Joseph Hospital East, Mt. Clemens, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F17@
+1 FAMC @F5@
+0 @I51@ INDI
+1 NAME Joseph Eugene /Schmuck/
+1 SEX M
+1 BIRT
+2 DATE 15 JAN 1952
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Quality Control Analyst
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F17@
+1 FAMC @F18@
+0 @I52@ INDI
+1 NAME Helen  /Harris/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F18@
+0 @I53@ INDI
+1 NAME Joseph A. /Schmuck/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F18@
+0 @I54@ INDI
+1 NAME Stephanie Ann /Schmuck/
+1 SEX F
+1 BIRT
+2 DATE 20 JUN 1975
+2 PLAC Greenville General Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I55@ INDI
+1 NAME Joseph Michael /Schmuck/
+1 SEX M
+1 BIRT
+2 DATE 17 OCT 1976
+2 PLAC Greenville General Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I56@ INDI
+1 NAME Philip Edward /Schmuck/
+1 SEX M
+1 BIRT
+2 DATE 3 APR 1978
+2 PLAC Greenville General Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S19@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I57@ INDI
+1 NAME Lydia Ruth /Schmuck/
+1 SEX F
+1 BIRT
+2 DATE 21 SEP 1979
+2 PLAC Greenville General Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I58@ INDI
+1 NAME Susanna May /Schmuck/
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1982
+2 PLAC Greenville General Hospital, Greenville, Greenville County, South Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I59@ INDI
+1 NAME Rachel Joy /Schmuck/
+1 SEX F
+1 BIRT
+2 DATE 3 OCT 1986
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F17@
+0 @I60@ INDI
+1 NAME Nathan Alan /Crane/
+1 SEX M
+1 BIRT
+2 DATE 23 JUN 1955
+2 PLAC St. Joseph Hospital East, Mt. Clemens, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Industrial Electrician
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F19@
+1 FAMC @F5@
+0 @I61@ INDI
+1 NAME Carol Elaine /Jones/
+1 SEX F
+1 BIRT
+2 DATE 15 OCT 1959
+2 PLAC Wilmington, Deleware
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC First Baptist Church, Concordville, Deleware
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F19@
+1 FAMC @F20@
+0 @I62@ INDI
+1 NAME Martha  /Walls/
+1 SEX F
+1 BIRT
+2 DATE 29 NOV 1929
+2 PLAC Renomith, Beach County, Deleware
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Nurse
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F20@
+0 @I63@ INDI
+1 NAME Clarence  /Jones/
+1 SEX M
+1 BIRT
+2 DATE 29 JAN 1926
+2 PLAC Wilmington, Deleware
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Dow Chemical Company
+2 SOUR @S26@
+1 FAMS @F20@
+0 @I64@ INDI
+1 NAME Nathan Alan /Crane/
+2 _AKAN Nathan Alan Crane, II.
+3 SOUR @S33@
+1 SEX M
+1 BIRT
+2 DATE 27 MAR 1980
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Van Dyke Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F21@
+1 FAMC @F19@
+0 @I65@ INDI
+1 NAME Andrea  /(Crane)/
+1 SEX F
+1 BIRT
+2 DATE 10 DEC 1978
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F21@
+0 @I66@ INDI
+1 NAME Nathan Alan /Crane/
+2 _AKAN Nathan Alan Crane, III.
+3 SOUR @S33@
+1 SEX M
+1 BIRT
+2 DATE 14 JAN 2004
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F21@
+0 @I67@ INDI
+1 NAME Brianna Rachelle /(Crane)/
+1 SEX F
+1 BIRT
+2 DATE 15 MAR 2002
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F21@
+0 @I68@ INDI
+1 NAME Melissa Louise /Crane/
+1 SEX F
+1 BIRT
+2 DATE 21 OCT 1982
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Van Dyke Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I69@ INDI
+1 NAME Rebecca Lynn /Crane/
+1 SEX F
+1 BIRT
+2 DATE 13 NOV 1983
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Van Dyke Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I70@ INDI
+1 NAME Jonathan Wesley /Crane/
+1 SEX M
+1 BIRT
+2 DATE 14 JUN 1985
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC First Baptist Church, Brown City, Sanilac County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I71@ INDI
+1 NAME Elizabeth Ruth /Crane/
+1 SEX F
+1 BIRT
+2 DATE 11 JUN 1986
+2 PLAC Holy Cross Hospital, Detroit, Wayne County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC First Baptist Church, Brown City, Sanilac County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I72@ INDI
+1 NAME Stephen Josiah /Crane/
+1 SEX M
+1 BIRT
+2 DATE 17 MAY 1988
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC First Baptist Church, Brown City, Sanilac County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I73@ INDI
+1 NAME Jacob Michael /Crane/
+1 SEX M
+1 BIRT
+2 DATE 8 AUG 1992
+2 PLAC Lapeer Regional Hospital, Lapeer, Lapeer County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 BAPM
+2 PLAC Faith Baptist Church, Brown City, MI
+1 SOUR @S26@
+1 FAMC @F19@
+0 @I74@ INDI
+1 NAME Benjamin Andrew /Crane/
+1 SEX M
+1 BIRT
+2 DATE 13 OCT 1993
+2 PLAC Lapeer Regional Hospital, Lapeer, Lapeer County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I75@ INDI
+1 NAME Esther Grace /Crane/
+1 SEX F
+1 BIRT
+2 DATE 21 FEB 1995
+2 PLAC Lapeer Regional Hospital, Lapeer, Lapeer County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I76@ INDI
+1 NAME Mary Beth /Crane/
+1 SEX F
+1 BIRT
+2 DATE 31 AUG 1996
+2 PLAC Lapeer Regional Hospital, Lapeer, Lapeer County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I77@ INDI
+1 NAME Tabitha Ann /Crane/
+1 SEX F
+1 BIRT
+2 DATE 25 JUN 1999
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I78@ INDI
+1 NAME Faith LeeAnne /Crane/
+1 SEX F
+1 BIRT
+2 DATE 23 JUN 2001
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F19@
+0 @I79@ INDI
+1 NAME Cheryl Beth /Crane/
+1 SEX F
+1 BIRT
+2 DATE 9 AUG 1957
+2 PLAC Warren Memorial Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Redeemer Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 NOTE bapt. by the Rev. Braun
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Home-Maker
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F22@
+1 FAMC @F5@
+0 @I80@ INDI
+1 NAME Thomas Frederick /Davis/
+1 SEX M
+1 BIRT
+2 DATE 1 NOV 1954
+2 PLAC Telaviv, Israel
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Draftsman
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F22@
+1 FAMC @F23@
+0 @I81@ INDI
+1 NAME Barbara Ann /Fowley/
+1 SEX F
+1 BIRT
+2 DATE 17 NOV 1926
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F23@
+0 @I82@ INDI
+1 NAME Leslie Raymond /Davis/
+1 SEX M
+1 BIRT
+2 DATE 23 JUL 1919
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F23@
+0 @I83@ INDI
+1 NAME Thomas Frederick /Davis/
+2 _AKAN Thomas Frederick Davis, Junior
+3 SOUR @S33@
+1 SEX M
+1 BIRT
+2 DATE 26 JUL 1981
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F22@
+0 @I84@ INDI
+1 NAME William Alan /Davis/
+1 SEX M
+1 BIRT
+2 DATE 5 JUN 1988
+2 PLAC South Macomb Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F22@
+0 @I85@ INDI
+1 NAME Sheila May /Crane/
+1 SEX F
+1 BIRT
+2 DATE 25 MAR 1959
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Clerk
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F24@
+1 FAMS @F26@
+1 FAMC @F5@
+0 @I86@ INDI
+1 NAME Daniel Haase /Talbot/
+1 SEX M
+1 BIRT
+2 DATE 19 JAN 1946
+2 PLAC St. Paul, Minnesota
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Office Manager
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F24@
+1 FAMC @F25@
+0 @I87@ INDI
+1 NAME Evelyn  /Haase/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F25@
+0 @I88@ INDI
+1 NAME Darwin  /Talbot/
+1 SEX M
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F25@
+0 @I89@ INDI
+1 NAME Andre  /Silvanovich/
+1 SEX M
+1 BIRT
+2 DATE 12 DEC 1960
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F26@
+0 @I90@ INDI
+1 NAME Evelyn Louise /Talbot/
+1 SEX F
+1 BIRT
+2 DATE 8 JUL 1982
+2 PLAC St. Joseph's Hospital, St. Paul, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F24@
+0 @I91@ INDI
+1 NAME Daniel Crane /Talbot/
+1 SEX M
+1 BIRT
+2 DATE 17 APR 1987
+2 PLAC Midway Hospital, St. Paul, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F24@
+0 @I92@ INDI
+1 NAME James Edward /Talbot/
+1 SEX M
+1 BIRT
+2 DATE 1 SEP 1990
+2 PLAC Midway Hospital, St. Paul, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F24@
+0 @I93@ INDI
+1 NAME Richard Michael /Crane/
+1 SEX M
+1 BIRT
+2 DATE 26 MAY 1962
+2 PLAC Warren Memorial Hospital, Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 BAPM
+2 DATE PRIVATE
+2 PLAC Redeemer Baptist Church, Warren, Macomb County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Executive Manager/Insurance Managerial
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F27@
+1 FAMC @F5@
+0 @I94@ INDI
+1 NAME Connie Jean /Peterson/
+1 SEX F
+1 BIRT
+2 DATE 28 MAY 1962
+2 PLAC Dearborn Medical Center, Dearborn, Wayne County, Michigan
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU General Clerical
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F27@
+1 FAMC @F28@
+0 @I95@ INDI
+1 NAME Glenda Jean /Mix/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Rochester, Monroe County, New York
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Medical Assistant
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F28@
+0 @I96@ INDI
+1 NAME David Johnell /Peterson/
+1 SEX M
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Minnesota
+2 SOUR @S26@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU DVM-Veternarian
+2 DATE PRIVATE
+2 SOUR @S26@
+1 FAMS @F28@
+0 @I97@ INDI
+1 NAME Bethany Marie /Crane/
+1 SEX F
+1 BIRT
+2 DATE 23 JUL 1989
+2 PLAC Lowell, Massachusetts
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F27@
+0 @I98@ INDI
+1 NAME Richard Landon /Crane/
+1 SEX M
+1 BIRT
+2 DATE 2 FEB 1992
+2 PLAC UNC Hospital, Chapel Hill, North Carolina
+2 SOUR @S26@
+2 SOUR @S33@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Crane, Richard Landon  2 Feb 1992.txt
+2 SOUR @S26@
+1 NOTE ____________________
+2 CONT    Crane, Vera: Richard was born at (10:37 am).
+2 CONT ____________________
+1 SOUR @S26@
+1 SOUR @S33@
+1 FAMC @F27@
+0 @I99@ INDI
+1 NAME Warren George /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 8 AUG 1929
+2 PLAC Erin Township, Macomb County, Michigan
+2 SOUR @S19@
+1 RESI
+2 PLAC Roseville, Macomb County, Michigan
+1 DEAT
+2 DATE 25 MAY 1989
+2 PLAC Harrison Township, Macomb County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+2 SOUR @S27@
+1 BURI
+2 DATE 27 MAY 1989
+2 PLAC Cadillac Memorial Gardens, Clinton Township, Macomb County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 EVEN
+2 TYPE Status
+2 DATE ALL BELOW PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 CENS
+2 DATE 1930
+2 PLAC Roseville, Macomb County, Michigan
+2 SOUR @S5@
+1 REFN C:\BKData Abbey\Abbey, Warren George 8 Aug 1929.txt
+1 REFN C:\Gen Pic\Abbey, Warren George 8 Aug 1929.jpg
+1 REFN C:\Gen Pic\Bobolo Boat Columbia.jpg
+1 OCCU Supervisor, Ford Sterling
+2 SOUR @S28@
+3 QUAY 3
+1 NOTE ____________________
+2 CONT    Warren worked as ? Worker-BoBolo Island Boats (U.S.S. St. Clair and the U.S.S. Columbia); Production-Ford Motor Co.; Boatswains Mate-U.S. Navy; Production/Salary-Ford Motor Co. Warren and Joyce were married by Judge Baldwin.
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Warren George 8 Aug 1929.jpg
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Bobolo Boat Columbia.jpg
+1 FAMS @F29@
+1 FAMC @F3@
+0 @I100@ INDI
+1 NAME Joyce Josephine /Melligan/
+1 SEX F
+1 BIRT
+2 DATE 24 JAN 1930
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S34@
+1 DEAT
+2 DATE 15 FEB 1992
+2 PLAC Mt. Clemens, Macomb County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 PLAC Cadillac Memorial Gardens, Clinton Township, Macomb County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 OCCU Production-Ford Motor
+2 SOUR @S35@
+3 QUAY 3
+1 FAMS @F29@
+1 FAMC @F30@
+0 @I101@ INDI
+1 NAME Mary  /Matt/
+1 SEX F
+1 FAMS @F30@
+0 @I102@ INDI
+1 NAME Edward  /Melligan/
+1 SEX M
+1 FAMS @F30@
+0 @I103@ INDI
+1 NAME Robert Clyde /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1962
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 RESI
+2 DATE PRIVATE
+2 PLAC New Baltimore, Macomb County, Michigan
+2 SOUR @S36@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F29@
+0 @I104@ INDI
+1 NAME George David /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 31 OCT 1963
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F31@
+1 FAMC @F29@
+0 @I105@ INDI
+1 NAME Shir 'Re /(Abbey)/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F31@
+0 @I106@ INDI
+1 NAME Nicole  /(Abbey)/
+1 SEX F
+1 BIRT
+2 DATE SEP 1988
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\(Abbey), Nicole __ Sep 1988.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Adopted by George David Abbey. Mother is Shir 'Re.
+2 CONT ____________________
+1 FAMC @F31@
+1 ADOP
+2 FAMC @F31@
+3 ADOP HUSB
+0 @I107@ INDI
+1 NAME David Warren /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 20 APR 1990
+2 PLAC Salt Lake City, Salt Lake County, Utah
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F31@
+0 @I108@ INDI
+1 NAME Harold Ray /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 14 AUG 1935
+2 PLAC Erin Township, Macomb County, Michigan
+2 SOUR @S19@
+3 QUAY 3
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\Gen Pic\Abbey, Harold Ray 14 Aug 1935.jpg
+1 REFN C:\BKData Abbey\Abbey, Harold Ray 14 Aug 1935.txt no data
+1 OCCU Stock J. L. Hudson Company
+2 DATE PRIVATE
+2 SOUR @S19@
+3 QUAY 3
+1 REFN 7571 3000  A0005
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Harold Ray 14 Aug 1935.jpg
+1 FAMS @F32@
+1 FAMC @F3@
+0 @I109@ INDI
+1 NAME Sarah "Sally" /O'Hare/
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1935
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S37@
+1 REFN C:\BKData N-Z\O'Hare, Sarah 10 Sep 1935.txt
+2 SOUR @S37@
+1 FAMS @F32@
+1 FAMC @F33@
+0 @I110@ INDI
+1 NAME Sarah  /Lawless/
+1 SEX F
+1 BIRT
+2 DATE 24 OCT 1896
+2 PLAC Belfast, Antirm County, Nortern Ireland
+2 SOUR @S37@
+1 DEAT
+2 DATE 4 MAR 1980
+2 SOUR @S37@
+1 FAMS @F33@
+0 @I111@ INDI
+1 NAME Edward  /O'Hare/
+1 SEX M
+1 BIRT
+2 DATE 3 MAY 1900
+2 PLAC Keady, Armagh, Northern Ireland
+2 SOUR @S37@
+1 DEAT
+2 DATE 25 DEC 1973
+2 SOUR @S37@
+1 REFN Sally1
+1 FAMS @F33@
+0 @I112@ INDI
+1 NAME Howard Robert /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 12 NOV 1975
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F32@
+0 @I113@ INDI
+1 NAME Robert James /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 17 FEB 1937
+2 PLAC Erin Township, Macomb County, Michigan
+2 SOUR @S19@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Roseville, Macomb County, Michigan
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Robert James 17 Feb 1937.jpg
+2 SOUR @S29@
+1 REFN C:\Gen Pic\Abbey, Robert James 17 Feb 1937.jpg
+2 SOUR @S29@
+1 OCCU Hydraulic Repairman, Ford
+2 DATE PRIVATE
+2 SOUR @S19@
+3 QUAY 3
+1 NOTE ____________________
+2 CONT    Robert Worked as Special Delivery Mail Person-U.S. Postal Service; Aviation Hydaulic Repairman-U.S. Air Force; Armored Car Hydraulic Repairman/Test Driver-Cadillac Gage Co.; Industrial Hydraulic Repairman-Ford Motor Co.; Machine Repairman-Gener
+2 CONC al Motors Corp.; Hyd.-Ford.
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Robert James 17 Feb 1937.jpg
+1 FAMS @F34@
+1 FAMC @F3@
+0 @I114@ INDI
+1 NAME Mina Marilyn /Filzek/
+1 SEX F
+1 BIRT
+2 DATE 29 NOV 1937
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S17@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F34@
+1 FAMC @F35@
+0 @I115@ INDI
+1 NAME Viola  /(Filzek)/
+1 SEX F
+1 FAMS @F35@
+0 @I116@ INDI
+1 NAME Carl  /Filzek/
+1 SEX M
+1 REFN C:\BKData\Filzek, Carl nbd.txt no data
+2 SOUR @S44@
+1 FAMS @F35@
+0 @I117@ INDI
+1 NAME Marilyn Louise /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 21 MAR 1959
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F36@
+1 FAMC @F34@
+0 @I118@ INDI
+1 NAME Fred  /Shuten/
+2 _AKAN Fred Shuten, Junior
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F36@
+0 @I119@ INDI
+1 NAME Fred "Freddie" /Shuten/
+2 _AKAN Fred Shuten, III.
+1 SEX M
+1 BIRT
+2 DATE 16 FEB 1988
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F36@
+0 @I120@ INDI
+1 NAME Christopher "Chris" Robert/Shuten/
+1 SEX M
+1 BIRT
+2 DATE 25 MAR 1991
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F36@
+0 @I121@ INDI
+1 NAME Ronald James /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 8 OCT 1960
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Ronald James 8 Oct 1960.txt
+2 SOUR @S19@
+1 OCCU Sergeant U.S. Air Force; Store Manager for AutoZone
+2 DATE PRIVATE
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth & Edith: Ronald and Laura were married 28 Apr 1985 or m. 12 Jul 1985.
+2 CONT ____________________
+1 FAMS @F37@
+1 FAMC @F34@
+0 @I122@ INDI
+1 NAME Laura M. /Miller/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData G-M\Miller, Laura M m28 Apr 1985.txt
+2 SOUR @S41@
+1 OCCU Major U.S.Air Force
+2 DATE PRIVATE
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Abbey, Ronald James & Laura: 2003: Program Coordinator for St. David's Medical Center's Diabetes Center and is a consultant for the State of Texas Outreach Health Services Program.
+2 CONT ____________________
+1 FAMS @F37@
+1 FAMC @F38@
+0 @I123@ INDI
+1 NAME Patricia R. /(Miller)/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F38@
+0 @I124@ INDI
+1 NAME Fred L. /Miller/
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 1929
+2 PLAC Manhattan, Riley County, Kansas
+2 SOUR @S52@
+1 DEAT
+2 DATE 29 MAR 2000
+2 PLAC Bedford Hospital, Bedford, Texas
+2 SOUR @S52@
+1 BURI
+2 PLAC Mount Olivet Cemetery
+2 SOUR @S52@
+1 OCCU General Foreman
+2 SOUR @S52@
+1 REFN C:\BKData\Miller, Fred L 1929.txt
+2 SOUR @S52@
+1 RELI Hurst United Methodist Church
+2 SOUR @S52@
+1 NOTE ____________________
+2 CONT        Headline: Obituaries; Publication Date: March 30, 2000; Source: The Fort Worth Star-Telegram; Page: 6;7; Subjects: Region: Dallas-Ft. Worth Metro, Texas
+2 CONT    Obituary:  BEDFORD - Fred L. Miller, 71, a general foreman, died Wednesday, March 29, 2000, at a Bedford hospital.
+2 CONT    Funeral: 11:30 a.m. Saturday at Mount Olivet Chapel. Burial: Mount Olivet Cemetery. Visitation: 6 to 8 p.m. Friday at Mount Olivet Funeral Home.
+2 CONT    Memorials: Hurst United Methodist Church or Cancer Society, in lieu of flowers.
+2 CONT    Fred L. Miller was born Feb. 22, 1929, in Manhattan, Kan. He was a member of Masonic Lodge of Hurst 1387, Shriner Worth Commandry of Dallas and the Moslah Temple.
+2 CONT    Survivors: Wife, Patricia R. Miller of Bedford; son, Fred L. Miller Jr. and wife, Joan, of Mansfield; daughters, Kathryne M. Ottoline and husband, Henry, of Humble, Laura M. Abbey and husband, Ronald, of San Antonio and Diana M. Maxwell-Mille
+2 CONC r of Richland Hills; granddaughter, Nicole Maxwell; grandson, Matthew Ottoline; granddaughters, Elizabeth Miller and Brittany Abbey; grandson, Jamie Abbey; and numerous cousins and friends. Mount Olivet Funeral Home 2301 N. Sylvania Ave., 831-051
+2 CONC 1 Pallie Garrett Palmer
+2 CONT ____________________
+1 FAMS @F38@
+0 @I125@ INDI
+1 NAME Brittany Corinne /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 15 MAY 1989
+2 PLAC Abilene, Texas
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Brittany Corinne 15 May 1989.txt
+2 SOUR @S41@
+1 NOTE ____________________
+2 CONT    Abbey, Ronald James & Laura: 2003: Brittany was a member of the High School Marching Band.
+2 CONT ____________________
+1 FAMC @F37@
+0 @I126@ INDI
+1 NAME Ronald James "Jamie"/Abbey/
+2 _AKAN Ronald James Abbey, Junior
+1 SEX M
+1 BIRT
+2 DATE 28 APR 1990
+2 PLAC Abilene, Texas
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F37@
+0 @I127@ INDI
+1 NAME Elaine Marie /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 27 DEC 1961
+2 SOUR @S38@
+1 DEAT
+2 DATE 29 MAY 1967
+2 PLAC Chesterfield Township, Macomb County, Michigan
+2 SOUR @S38@
+1 BURI
+2 PLAC Cadillac Memorial Gardens East, Clinton Township, Macomb County, Michigan
+2 SOUR @S38@
+1 REFN C:\BKData\Abbey, Elaine Marie 27 Dec 1961.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Elaine drowned in the canal behind her house.
+2 CONT ____________________
+1 FAMC @F34@
+0 @I128@ INDI
+1 NAME Vivian Ellen /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 18 NOV 1963
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN no data C:\BKData Abbey\Abbey, Vivian Ellen 18 Nov 1963.txt
+1 FAMS @F39@
+1 FAMS @F40@
+1 FAMC @F34@
+0 @I129@ INDI
+1 NAME David  /Yates/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F39@
+0 @I130@ INDI
+1 NAME David  /Smith/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F40@
+0 @I131@ INDI
+1 NAME David Joseph /Yates/
+1 SEX M
+1 BIRT
+2 DATE 25 OCT 1985
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F39@
+0 @I132@ INDI
+1 NAME Michael Robert /Yates/
+1 SEX M
+1 BIRT
+2 DATE 1 APR 1987
+2 PLAC Bon Securs Hospital, Grosse Pointe, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F39@
+0 @I133@ INDI
+1 NAME son  /Smith/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMC @F40@
+0 @I134@ INDI
+1 NAME Thomas Carl /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 28 SEP 1966
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 RESI
+2 DATE PRIVATE
+2 PLAC New Baltimore, Macomb County, Michigan
+2 SOUR @S36@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Thomas Carl 28 Sep 1966.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT      Clark, Ruth and Edith:
+2 CONT    Thomas Resided:
+2 CONT 48606 Jefferson Ave., New Baltimore, Macomb County, Michigan 48047-2208
+2 CONT 21990 Remick Dr., Clinton Township, Macomb County, Michigan 48036-2633
+2 CONT 31536 Juniper Ln., Warren, Macomb County, Michigan 48093-1625
+2 CONT ____________________
+1 FAMS @F41@
+1 FAMC @F34@
+0 @I135@ INDI
+1 NAME Dawn  /(Abbey)/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F41@
+0 @I136@ INDI
+1 NAME Jason  /Abbey/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMC @F41@
+0 @I137@ INDI
+1 NAME Crystal  /Abbey/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMC @F41@
+0 @I138@ INDI
+1 NAME Gregory  /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 20 OCT 1975
+2 PLAC Chesterfield Township, Macomb County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Gregory 20 Oct 1975.txt
+1 NOTE ____________________
+2 CONT    Gregory was born in the car on way to the hospital.
+2 CONT ____________________
+1 FAMC @F34@
+0 @I139@ INDI
+1 NAME Charles Albert /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 20 MAY 1939
+2 PLAC Erin Township, Macomb County, Michigan
+2 SOUR @S30@
+2 SOUR @S31@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Roseville, Macomb County, Michigan
+1 RESI
+2 DATE 2 OCT 1963
+2 PLAC Grand Rapids, Kent County, Michigan
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, Charles Albert 20 May 1939.txt
+2 SOUR @S32@
+1 REFN C:\BKData Abbey\Abbey, Charles Albert 20 May 1939 np.txt
+2 SOUR @S29@
+1 OCCU Industrial Electrician
+2 DATE PRIVATE
+1 NOTE ____________________
+2 CONT    When he was a small boy Charles fell in the driveway and bit his tounge down the middle, which requires several stitches.  At Leila Collyers home, when he was somewhat older one of his brother's accidently closed the car door on his thumb smash
+2 CONC ing it, requiring a trip to the Drug Store, where the Druggist patched it up.
+2 CONT ____________________
+2 CONT marriage witnesses: Jean M. Jackle, East Lansing, MI and Alfred A. Dyer, Epoufette, MI.  At the time of marriage resided at 33 Library Street, Grand Rapids, MI.
+2 CONT ____________________
+1 FAMS @F42@
+1 FAMC @F3@
+0 @I140@ INDI
+1 NAME Lydia Luise /Jackle/
+1 SEX F
+1 BIRT
+2 DATE 23 FEB 1945
+2 PLAC Grosse Point Hospital, Detroit, Wayne County, Michigan
+2 SOUR @S39@
+2 SOUR @S31@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 RESI
+2 DATE PRIVATE
+2 PLAC Detroit, Wayne County, Michigan
+1 RESI
+2 DATE PRIVATE
+2 PLAC Epoufette, Mackinac County, Michigan
+1 RESI
+2 DATE PRIVATE
+2 PLAC Harper Woods, Wayne County, Michigan
+1 RESI
+2 DATE 2 OCT 1963
+2 PLAC Grand Rapids, Kent County, Michigan
+2 SOUR @S32@
+1 REFN C:\BKData G-M\Jackle, Lydia Luise 23 Feb 1945
+2 SOUR @S32@
+1 OCCU Motel Worker/Book Binder
+2 DATE PRIVATE
+2 SOUR @S39@
+1 NOTE ____________________
+2 CONT    Marriage Certificate: At the time of marriage resided at 206 Ransom, Grand Rapids, MI.
+2 CONT ____________________
+1 FAMS @F42@
+1 FAMC @F43@
+0 @I141@ INDI
+1 NAME Nora Jean /Huber/
+1 SEX F
+1 BIRT
+2 DATE 30 SEP 1916
+2 PLAC Brackenridge, Allegany County, Pennsylvania
+2 SOUR @S39@
+1 DEAT
+2 DATE 15 NOV 2003
+2 PLAC Belknap Township, Presque Isle County, Michigan
+2 SOUR @S39@
+1 OCCU Motel Owner/Operator
+2 SOUR @S39@
+1 REFN C:\BKData G-M\Huber, Nora Jean 30 Sep 1916.txt
+2 SOUR @S39@
+1 REFN C:\Gen Pic\Schaudt, Nora 30 Sep 1916.jpg
+1 NOTE ____________________
+2 CONT    Huber, Nora Jean: At Nora's age of about 6 yrs., the Family moved to Cleveland, OH. When she was in the 5th grade they moved to Ecorse, MI and in the 6th grade they moved to Detroit, MI.  She worked and lived in Fair Haven, MI at a restauran
+2 CONC t along Lake St. Clair for about 3 yrs after high school.  She used to listen to Tommy Dorsey jam with his friends.  Tommy Dorsey's father-in-law lived across from where she worked-he was very friendly.  She worked as a housekeeper for a few Years
+2 CONC .  She met (John Jackle her first husband, Luise's father) when Nora's parents had a speak-easy (Blind Pig).  She met John Jackle while she was still in High School.  John was friends with Nora's brothers.  In 1948, they took a motorcycle trip aro
+2 CONC und Lake Michigan. One of John's friends lived in Epoufette and he liked the area, so in 1949, he bought 5 acres from a fisherman, Charlie Prout, a Chippewa Indian.  They built the Century Motel there.
+2 CONT   John met Paul Schaudt when they all lived in Harper Woods.  Paul trapped in Epoufette in the early 1950's.  He would take his mother along for the trip.  Once John asked Paul to bring a barrel of dog food.  Luise was in Paul's feed store when sh
+2 CONC e was 6 yrs. old (1951).  In 1958, Paul became her step-father. Nora was Waitress and a Motel Owner-Operator, Nora Jean (Huber/Jackle) Schaudt.
+2 CONT ____________________
+2 CONT    Wayne County Michigan Marriage Certificate: County Clerk: Casper D. Luegrueau Deputy Clerk: A. E. Nader Dated: 17th. day of Sept. 1941 c. Marr. 27 Sep 1941 Detroit, Wayne, Michigan; Witnessed by: Johann Jackle of Detroit, Michigan and Carl Kamm
+2 CONC erer of Detroit, Michigan (a friend of John Jackle.  Ralph W. Liddy, Judge, Common Pleas Court. John Jackle age 33 White res. Detroit, Mich. b.Germany Tool-Die Maker F. Johann M. Anna Zeus Prev. marr. once; Nora Jean Huber age 24 White res. Detroi
+2 CONC t, Mich. b.Pennsylvania No occ. F. William A. Huber M. Ella Tackenburg.
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Schaudt, Nora 30 Sep 1916.jpg
+1 FAMS @F43@
+0 @I142@ INDI
+1 NAME John  /Jackle/
+1 SEX M
+1 BIRT
+2 DATE 8 DEC 1908
+2 PLAC St. George, Black Forest, Germany
+2 SOUR @S39@
+2 SOUR @S50@
+1 DEAT
+2 DATE NOV 1956
+2 PLAC Petosky, Emmet County, Michigan
+2 SOUR @S51@
+2 SOUR @S39@
+1 BURI
+2 DATE 1956
+2 PLAC Epoufette, Mackinac County, Michigan
+2 SOUR @S51@
+2 SOUR @S39@
+1 REFN C:\BKData G-M\Jackle, John  8 Dec 1908.txt
+2 DATE CHECK OBIT SITE
+2 SOUR @S51@
+1 OCCU Tool & Die Maker
+2 SOUR @S39@
+3 QUAY 3
+1 NOTE ____________________
+2 CONT        WILL BURY EPOUFETTE RESORT OPERATOR TODAY
+2 CONT      John Jackle Succumbed in Little Traverse Hospital on Monday Morning
+2 CONT    Funeral services will be solomnized at two o'clock this afternoon from the George Davis Funeral Chapel for John Jackle, 48, operator of the Century Motel, Epoufette.
+2 CONT    Mr. Jackle, who was returning from a trip in lower Michigan, stopped off at the hospital for medical treatment of an ailment that had prevented him from enjoying health since last May.  He passed away there at 11 o'clock.  He passed awa
+2 CONC y at 11 o'clock Monday morning in Little Traverse hospital, Petosky.
+2 CONT    The Rev. Philemon Anderson will officiate at the services here.  Burial will be in Epoufette cemetery with the following pallbearers assisting:  William Monck, Robert Cash, Lee Dyer, Joseph Gill, Leroy Hoover and Robert Hudson.
+2 CONT    Mr. Jackle was born Dec. 8, 1907, in Germany and attended school there.  He lived for many years in Detroit and six years ago came with his family to Epoufette where he established the Century Motel.
+2 CONT    Surviving to mourn their loss are his wife, Nora, and two daughters, Jean and Louise, at home; his parents, Mr. and Mrs. Johann Jackle of Detroit and one brother, Joseph, also of Detroit.
+2 CONT    Mr. Jackle was highly regarded by all who knew him and enjoyed many friends locally who join in extending sympathy to the breaved family.
+2 CONT ____________________
+1 SOUR @S50@
+1 FAMS @F43@
+0 @I143@ INDI
+1 NAME John Winston /Abbey/
+1 SEX M
+1 BIRT
+2 DATE 3 FEB 1965
+2 PLAC Mt. Clemens General Hospital, Mt. Clemens, Macomb County, Michigan
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData Abbey\Abbey, John Winston 3 Feb 1965 .txt
+2 SOUR @S31@
+1 REFN C:\BKData Abbey\Abbey, John Winston 3 Feb 1965 pvt.txt
+2 SOUR @S29@
+1 OCCU Semi-Truck Driver
+2 DATE PRIVATE
+1 NOTE ____________________
+2 CONT    Birth Certificate: Abbey, John Winston: John was born 10:02 am; 8# 7oz.; 21 1/2" long.
+2 CONT ____________________
+1 FAMS @F44@
+1 FAMS @F46@
+1 FAMC @F42@
+0 @I144@ INDI
+1 NAME Jaqueline  /Hargreaves/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S42@
+1 FAMS @F44@
+1 FAMC @F45@
+0 @I145@ INDI
+1 NAME Donna Mae /Inman/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S42@
+1 FAMS @F45@
+0 @I146@ INDI
+1 NAME Lawrence  /Hargreaves/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S42@
+1 FAMS @F45@
+0 @I147@ INDI
+1 NAME Janet Marie /Low/
+1 SEX F
+1 BIRT
+2 DATE 26 APR 1951
+2 PLAC St. Lukes Hospital, Chicago, Cook County, Illinois
+2 SOUR @S43@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Credit Supervisor
+2 SOUR @S43@
+1 FAMS @F46@
+1 FAMC @F47@
+0 @I148@ INDI
+1 NAME Mary Ann /Kacerovsky/
+1 SEX F
+1 BIRT
+2 DATE 19 DEC 1929
+2 PLAC Warren, Minnesota
+2 SOUR @S43@
+1 DEAT
+2 DATE 22 JUL 1991
+2 PLAC Sebring, Florida
+2 SOUR @S43@
+1 BURI
+2 PLAC Berrien Springs, Berrien County, Michigan
+2 SOUR @S43@
+1 FAMS @F47@
+0 @I149@ INDI
+1 NAME Richard Hans /Low/
+1 SEX M
+1 BIRT
+2 DATE 1 JAN 1927
+2 PLAC Niagara Falls, New York
+2 SOUR @S43@
+1 DEAT
+2 DATE 9 JAN 1994
+2 PLAC Chicago, Cook County, Illinois
+2 SOUR @S43@
+1 BURI
+2 PLAC Berrien Springs, Berrien County, Michigan
+2 SOUR @S43@
+1 OCCU Retail Manager
+2 SOUR @S43@
+1 REFN In SSDI
+1 FAMS @F47@
+0 @I150@ INDI
+1 NAME Aleece Luise /Abbey/
+1 SEX F
+1 BIRT
+2 DATE 30 MAR 1966
+2 PLAC St. Joseph Hospital, Mt. Clemens, Macomb County, Michigan
+2 SOUR @S31@
+1 RESI
+2 PLAC Lapeer, Lapeer County, Michigan
+2 SOUR @S36@
+3 PAGE page
+1 REFN C:\BKData Abbey\Abbey, Aleece Luise 30 Mar 1966.txt
+2 SOUR @S29@
+1 OCCU Accountant
+2 SOUR @S40@
+1 NOTE ____________________
+2 CONT    Abbey Family, HRA: Aleece was born at St. Joseph Hospital (now St. Joseph. East); b. 08:47pm; 3# 4oz.; 17" at 6 wks.; Apt. Manager/Food Manager/Bank Teller/Hardware Store Accountant.
+2 CONT ____________________
+1 FAMS @F48@
+1 FAMC @F42@
+0 @I151@ INDI
+1 NAME Daniel David /Bradd/
+1 SEX M
+1 BIRT
+2 DATE 28 MAY 1963
+2 PLAC St. Clair, St. Clair County, Michigan
+2 SOUR @S40@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Bradd, Daniel David 28 May 1963.txt
+2 SOUR @S40@
+1 OCCU Production Worker
+2 DATE PRIVATE
+2 SOUR @S40@
+1 NOTE ____________________
+2 CONT    Bradd, Daniel and Aleece: Daniel was born at River District Hospital; Occupation: Salary at Drug Store Chain, Medical Services Delivery and for Auto Parts.
+2 CONT ____________________
+1 FAMS @F48@
+1 FAMC @F49@
+0 @I152@ INDI
+1 NAME Ruth Ann /Conklin/
+1 SEX F
+1 BIRT
+2 DATE 14 APR 1939
+2 PLAC St. Clair County, Michigan
+2 SOUR @S40@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Marine City, St. Clair County, Michigan
+2 SOUR @S40@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Conklin, Ruth Ann 14 Apr 1939.txt
+2 SOUR @S40@
+1 OCCU Manter Technologies
+2 DATE PRIVATE
+2 SOUR @S40@
+1 NOTE ____________________
+2 CONT    Bradd, Daniel and Aleece: Occ: Reef Gear/Baker Company (not Baker Electric); Manter Technologies.
+2 CONT ____________________
+1 FAMS @F49@
+0 @I153@ INDI
+1 NAME Thomas David /Bradd/
+1 SEX M
+1 BIRT
+2 DATE 6 JUL 1934
+2 SOUR @S40@
+1 DEAT
+2 DATE 27 APR 1983
+2 PLAC Cottrellville Township, St. Clair County, Michigan
+2 SOUR @S40@
+1 BURI
+2 DATE PRIVATE
+2 PLAC Oaklawn Cemetery, Algonac, Clay, St. Clair County, Michigan
+2 SOUR @S40@
+1 EVEN
+2 TYPE Relationship
+2 DATE TWIN
+2 SOUR @S40@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Bradd, Thomas David 6 Jul 1934.tx
+2 SOUR @S40@
+1 OCCU Chrysler
+2 DATE PRIVATE
+2 SOUR @S40@
+1 NOTE ____________________
+2 CONT    Bradd, Daniel and Aleece: Thomas and Donald were twins.
+2 CONT ____________________
+1 FAMS @F49@
+0 @I154@ INDI
+1 NAME Michael Thomas /Bradd/
+1 SEX M
+1 BIRT
+2 DATE 6 AUG 1989
+2 PLAC River District Hospital, East China Township, St. Clair County, Michigan
+2 SOUR @S40@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Bradd, Michael Thomas  6 Aug 1989.txt
+2 SOUR @S40@
+1 REFN 7571 5210
+1 NOTE ____________________
+2 CONT    Bradd, Daniel and Aleece: Michael was 7# even; 20" long; 4:21 am.
+2 CONT ____________________
+1 SOUR @S40@
+1 FAMC @F48@
+0 @I155@ INDI
+1 NAME Elizabeth Luise /Bradd/
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1998
+2 PLAC St. John's River District Hospital, East China Township, St. Clair County, Michigan
+2 SOUR @S40@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Bradd, Elizabeth Luise 10 Sep 1998.txt
+2 SOUR @S40@
+1 REFN 7571 5220
+1 NOTE ____________________
+2 CONT    Bradd, Daniel and Aleece: Elizabeth was 7# 7oz.; 20"; 12:54 pm.
+2 CONT ____________________
+1 SOUR @S40@
+1 FAMC @F48@
+0 @I156@ INDI
+1 NAME Edward Henry /Clark/
+1 SEX M
+1 BIRT
+2 DATE 3 JAN 1902
+2 PLAC Eckford, Calhoun County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 29 OCT 1987
+2 PLAC St. Louis, Gratiot County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 DATE 31 OCT 1987
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 REFN C:\BKData\Clark, Edward Henry  3 Jan 1902.txt
+2 SOUR @S19@
+2 SOUR @S47@
+2 SOUR @S21@
+1 REFN C:\BKData\Clark, Edward Henry & Arlean Ellen m17 May 1924.txt
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, Edward Henry & Arlean Ellen m17 May 1924.txt
+1 REFN Clk04133
+1 OCCU Tool Maker
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Edward Henry Clark/Arlean Ellen Byers and Floyd Reichow/Ella Marie Wirebaugh had a double wedding ceremony.
+2 CONT ____________________
+2 CONT    Cemetery Records: Edward was buried in Block 1, Lot 56.
+2 CONT ____________________
+1 FAMS @F50@
+1 FAMS @F52@
+1 FAMC @F1@
+0 @I157@ INDI
+1 NAME Arlean Ellen /Byers/
+1 SEX F
+1 BIRT
+2 DATE 5 OCT 1902
+2 PLAC Gilead Township, Branch County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 14 MAY 1973
+2 PLAC Homer, Calhoun County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 DATE 17 MAY 1973
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 REFN C:\BKData\Byers, Arlean Ellen  5 Oct 1902.txt
+2 SOUR @S19@
+1 REFN Clark, Edward Henry & Arlean Ellen m1924
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth & Edith: Arlean Ellen Byers m. Edward Henry Clark
+2 CONT ____________________
+2 CONT    Funeral Home Card: Arlean was buried in Block 1, Lot 56.
+2 CONT ____________________
+1 FAMS @F50@
+1 FAMC @F51@
+0 @I158@ INDI
+1 NAME Zora  /Coffin/
+1 SEX F
+1 BURI
+2 PLAC Jonesville, Hillsdale County, Michigan
+2 SOUR @S19@
+1 FAMS @F51@
+0 @I159@ INDI
+1 NAME Nathan  /Byers/
+1 SEX M
+1 SOUR @S19@
+1 FAMS @F51@
+0 @I160@ INDI
+1 NAME Ella Marie /Wirebaugh/
+1 SEX F
+1 BIRT
+2 DATE 1 MAY 1905
+2 PLAC Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 24 FEB 1987
+2 PLAC Perrington, Gratiot County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 27 FEB 1987
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, Edward Henry & Arlean Ellen m17 May 1924.txt
+2 SOUR @S19@
+1 REFN C:\BKData N-Z\Wirebaugh, Ella Marie  1 May 1905.txt no data
+2 SOUR @S19@
+1 FAMS @F52@
+0 @I161@ INDI
+1 NAME Hudean Edward /Clark/
+1 SEX M
+1 BIRT
+2 DATE 29 JUL 1925
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 29 JUL 1925
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 1925
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, Hudean Edward 29 Jul 1925.txt
+2 SOUR @S48@
+1 NOTE ____________________
+2 CONT    Fairview Cemetery Caretaker: Hudean was buried in Block F, Lot 67.
+2 CONT ____________________
+1 FAMC @F50@
+0 @I162@ INDI
+1 NAME George Dean /Clark/
+1 SEX M
+1 BIRT
+2 DATE 24 MAR 1928
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 24 MAR 1928
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE MAR 1928
+2 PLAC Fairview Cemetery, Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, George Dean 24 Mar 1928.txt
+2 SOUR @S48@
+1 NOTE ____________________
+2 CONT    Fairview Cemetery Caretaker: George was buried in Block F, Lot 67.
+2 CONT ____________________
+1 FAMC @F50@
+0 @I163@ INDI
+1 NAME Zo Alice /Clark/
+1 SEX F
+1 BIRT
+2 DATE 18 OCT 1936
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 BAPM
+2 DATE 31 MAR 1991
+2 PLAC Greenville, Montcalm County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\Gen Pic\Clark, Zo Alice 18 Oct 1936.jpg
+1 OCCU LPN, Gibson Refrigeration Plant
+2 DATE PRIVATE
+2 SOUR @S19@
+1 FAMS @F53@
+1 FAMS @F54@
+1 FAMS @F55@
+1 FAMC @F50@
+0 @I164@ INDI
+1 NAME partner  /______/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F53@
+0 @I165@ INDI
+1 NAME Robert E. /Dennis/
+1 SEX M
+1 BIRT
+2 DATE 3 AUG 1931
+2 SOUR @S19@
+1 DEAT
+2 DATE 10 MAR 1980
+2 PLAC Crystal, Montcalm, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 13 MAR 1980
+2 PLAC Crystal, Montcalm, Michigan
+2 SOUR @S19@
+1 FAMS @F54@
+0 @I166@ INDI
+1 NAME husband #3 /______/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F55@
+0 @I167@ INDI
+1 NAME Anthony Edward (Tony)/Clark/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F56@
+1 FAMC @F53@
+0 @I168@ INDI
+1 NAME wife  /(Clark)/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F56@
+0 @I169@ INDI
+1 NAME Ruth Mildred /Clark/
+1 SEX F
+1 BIRT
+2 DATE 14 NOV 1909
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Clark, Ruth Mildred 14 Nov 1909.txt
+1 REFN C:\Gen Pic\Clark, Ruth Mildred 14 Nov 1909.jpg
+1 REFN Clk04134
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT      Clark, Ruth Mildred
+2 CONT    Article for Senior Citizens Heritage Dinner written by Ruth Clark:
+2 CONT 
+2 CONT   On behalf of my sister and myself, I wish to tell a little about our Maternal Grandfather who came to the United States from England.
+2 CONT   Paul Collier was born in Great Horwood, Buckinghamshire, England in 1835 and came to the United States as a young man in 1855.  He lived in New York State for a time and married our Grandmother there in 1866.  She was also of English descent
+2 CONC .  They later moved to Michigan and settled on a farm outside of the little village of Homer, which is located on M-60 southwest of Jackson.  He was from a family of 12 children and at the time of his death, only three survived him.  He served wit
+2 CONC h the 9th California Cavalry in the Civil War.  He farmed for many years in the Homer, Michigan area and there were three children in this family, our Mother, her Brother and Sister.  Our Grandmother died in 1899 and Grandfather died suddenl
+2 CONC y in 1905, so Edith and I never had the pleasure of knowing our Grandparents, as all were deceased on both sides of our family before we arrived.
+2 CONT   I have some pictures here of some of our ancestors that are in unusual frames.
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Ruth Mildred 14 Nov 1909.jpg
+1 FAMC @F1@
+0 @I170@ INDI
+1 NAME Edith Louise /Clark/
+1 SEX F
+1 BIRT
+2 DATE 24 JUL 1912
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN Clk04135
+1 REFN C:\Gen Pic\Clark, Edith Louise 24 Jul 1912.jpg
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Edith Louise 24 Jul 1912.jpg
+1 FAMC @F1@
+0 @I171@ INDI
+1 NAME Floyd George /Clark/
+1 SEX M
+1 BIRT
+2 DATE 3 JAN 1915
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 23 APR 1994
+2 PLAC St. Johns Hospital, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 DATE 26 APR 1994
+2 PLAC Mt. Olivet Cemetery, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, Floyd George  3 Jan 1915.txt
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, Floyd George & Mirielle L m16 Nov 1940.jpg
+1 OCCU Tool Maker
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Floyd worked at American Car and Foundry in Detroit and at Chrysler Corporation. He Died 1:30 am. at St. Johns Hospital.
+2 CONT ____________________
+1 FAMS @F57@
+1 FAMC @F1@
+0 @I172@ INDI
+1 NAME Mirielle L. /Messens/
+1 SEX F
+1 BIRT
+2 DATE 28 JUN 1921
+2 PLAC Belgium
+2 SOUR @S19@
+1 DEAT
+2 DATE 8 APR 1987
+2 PLAC Grosse Pointe Farms, Wayne County, Michigan
+2 SOUR @S19@
+1 BURI
+2 DATE 11 APR 1987
+2 PLAC Mt. Olivet Cemetery, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, Floyd George & Mirielle L m1940.jpg
+1 FAMS @F57@
+1 FAMC @F58@
+0 @I173@ INDI
+1 NAME Bertha  /VanRenterghem/
+1 SEX F
+1 BIRT
+2 DATE 7 AUG 1893
+2 PLAC Ruddevorrde, Belgium
+2 SOUR @S19@
+1 DEAT
+2 DATE 27 SEP 1974
+2 SOUR @S19@
+1 BURI
+2 PLAC Mt. Olivet Cemetery, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 OCCU Grocery Store Operator
+2 SOUR @S19@
+1 FAMS @F58@
+0 @I174@ INDI
+1 NAME Maurice G. /Messens/
+1 SEX M
+1 BIRT
+2 DATE 3 SEP 1892
+2 PLAC Belgium
+2 SOUR @S19@
+1 DEAT
+2 DATE 1 OCT 1963
+2 SOUR @S19@
+1 BURI
+2 PLAC Mt. Olivet Cemetery, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 OCCU Grocery Store Operator
+2 SOUR @S19@
+1 FAMS @F58@
+0 @I175@ INDI
+1 NAME Diane Marie /Clark/
+1 SEX F
+1 BIRT
+2 DATE 22 FEB 1941
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 DEAT
+2 DATE 18 NOV 1984
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+2 SOUR @S21@
+1 BURI
+2 DATE 21 NOV 1984
+2 PLAC Resurection Cemetery, Clinton Township, Macomb County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, Diane Marie 22 Feb 1941.txt no data
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, Diane Marie & Maurice George.jpg
+2 SOUR @S19@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Diane Marie & Maurice George.jpg
+1 FAMS @F59@
+1 FAMC @F57@
+0 @I176@ INDI
+1 NAME Gordon R. /Riley/
+1 SEX M
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Industrial Electrician, Stroh Brewery in Detroit until it closed
+2 DATE PRIVATE
+2 SOUR @S19@
+1 FAMS @F59@
+0 @I177@ INDI
+1 NAME Michael Allen /Riley/
+1 SEX M
+1 BIRT
+2 DATE 19 APR 1962
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 _MILT Underwater Demolition, U.S.Navy
+2 DATE PRIVATE
+2 SOUR @S19@
+1 FAMC @F59@
+0 @I178@ INDI
+1 NAME Michele (Shelly) Ann/Riley/
+1 SEX F
+1 BIRT
+2 DATE 26 FEB 1964
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F60@
+1 FAMC @F59@
+0 @I179@ INDI
+1 NAME Martin  /Kohl/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F60@
+0 @I180@ INDI
+1 NAME David Gordon /Riley/
+1 SEX M
+1 BIRT
+2 DATE 28 JUL 1966
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F61@
+1 FAMC @F59@
+0 @I181@ INDI
+1 NAME Jennifer  /Latimer/
+1 SEX F
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F61@
+0 @I182@ INDI
+1 NAME Lorie Ann /Riley/
+1 SEX F
+1 BIRT
+2 DATE 22 NOV 1969
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMS @F62@
+1 FAMC @F59@
+0 @I183@ INDI
+1 NAME Steven  /Cooley/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F62@
+0 @I184@ INDI
+1 NAME Maurice George /Clark/
+1 SEX M
+1 BIRT
+2 DATE 17 SEP 1945
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\Gen Pic\Clark, Maurice George 17 Sep 1945.jpg
+2 SOUR @S19@
+1 REFN C:\Gen Pic\Clark, Diane Marie & Maurice George.jpg
+2 SOUR @S19@
+1 REFN no data C:\BKData\Clark, Maurice George 17 Sep 1945.txt
+2 SOUR @S19@
+1 OCCU Supervision (Chrysler)
+2 DATE PRIVATE
+2 SOUR @S19@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Maurice George 17 Sep 1945.jpg
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Diane Marie & Maurice George.jpg
+1 FAMS @F63@
+1 FAMC @F57@
+0 @I185@ INDI
+1 NAME Linda Belle /Walters/
+1 SEX F
+1 BIRT
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU I.B.M. Operator
+2 DATE PRIVATE
+2 SOUR @S19@
+1 FAMS @F63@
+0 @I186@ INDI
+1 NAME Maurice George /Clark/
+2 _AKAN Maurice George Clark, II.
+1 SEX M
+1 BIRT
+2 DATE 5 AUG 1970
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Clark, Maurice George 5 Aug 1970.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Maurice George, II. was born 1969 or 1970.
+2 CONT ____________________
+1 FAMC @F63@
+0 @I187@ INDI
+1 NAME Christy Lynn /Clark/
+1 SEX F
+1 BIRT
+2 DATE 4 APR 1974
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F63@
+0 @I188@ INDI
+1 NAME Linda Lee /Clark/
+1 SEX F
+1 BIRT
+2 DATE 3 OCT 1947
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\Gen Pic\Clark, Linda Lee  3 Oct 1947.jpg
+1 REFN no data C:\BKData\Clark, Linda Lee  3 Oct 1947.txt
+1 OCCU Factory Employee
+2 DATE PRIVATE
+2 SOUR @S19@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Linda Lee 3 Oct 1947.jpg
+1 FAMS @F64@
+1 FAMC @F57@
+0 @I189@ INDI
+1 NAME Robert  /Baker/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 OCCU Dental Technician, makes dentures
+2 DATE PRIVATE
+2 SOUR @S19@
+1 FAMS @F64@
+0 @I190@ INDI
+1 NAME Lisa Anne /Baker/
+1 SEX F
+1 BIRT
+2 DATE 5 JUN 1970
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F64@
+0 @I191@ INDI
+1 NAME Robert Wayne /Baker/
+1 SEX M
+1 BIRT
+2 DATE 17 APR 1972
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F64@
+0 @I192@ INDI
+1 NAME Richard Allen /Baker/
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 1973
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 FAMC @F64@
+0 @I193@ INDI
+1 NAME Wayne Michael /Clark/
+1 SEX M
+1 BIRT
+2 DATE 12 SEP 1949
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Clark, Wayne Michael 12 Sep 1949.txt
+2 SOUR @S19@
+1 REFN ask abt Tony
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Tony was adopted by Wayne.
+2 CONT ____________________
+1 FAMS @F65@
+1 FAMC @F57@
+0 @I194@ INDI
+1 NAME Sue  /Rumenapp/
+1 SEX F
+1 BIRT
+2 DATE 20 JUN 1954
+2 SOUR @S19@
+1 DEAT
+2 DATE 5 FEB 1994
+2 SOUR @S19@
+1 REFN C:\BKData N-Z\Rumenapp, Sue 20 Jun 1954.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Sue was cremated and the service was held at the Kaul Funeral Home in Roseville, Macomb, Michigan.
+2 CONT ____________________
+1 FAMS @F65@
+0 @I195@ INDI
+1 NAME Tony  /Clark/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMC @F65@
+1 ADOP
+2 FAMC @F65@
+3 ADOP HUSB
+0 @I196@ INDI
+1 NAME Becky Lynn /Clark/
+1 SEX F
+1 BIRT
+2 DATE 18 AUG 1974
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 REFN C:\BKData\Clark, Becky Lynn 18 Aug 1974.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Becky was born 18 Aug or Sep 1974.
+2 CONT ____________________
+1 FAMS @F66@
+1 FAMC @F65@
+0 @I197@ INDI
+1 NAME Ian  /Alther/
+1 SEX M
+1 EVEN
+2 TYPE Status
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S19@
+1 FAMS @F66@
+0 @I198@ INDI
+1 NAME David Allen /Clark/
+1 SEX M
+1 DEAT
+2 DATE DECEASED
+2 SOUR @S19@
+1 BURI
+2 PLAC Mt. Olivet Cemetery, Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 REFN C:\BKData\Clark, David Allen nbd.txt
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT       Clark, Ruth and Edith: David was stillborn.
+2 CONT ____________________
+1 FAMC @F57@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I5@
+1 CHIL @I6@
+1 CHIL @I156@
+1 CHIL @I169@
+1 CHIL @I170@
+1 CHIL @I171@
+1 MARR
+2 DATE 20 NOV 1895
+2 PLAC Homer, Calhoun County, Michigan
+2 SOUR @S19@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, George Henry & Minnie Alice m20 Nov  1895.jpg
+1 SOUR @S19@
+1 SOUR @S46@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I3@
+1 CHIL @I2@
+1 MARR
+2 DATE 13 OCT 1866
+2 SOUR @S19@
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I6@
+1 CHIL @I10@
+1 CHIL @I99@
+1 CHIL @I108@
+1 CHIL @I113@
+1 CHIL @I139@
+1 CENS
+2 DATE 1920
+2 PLAC Erin, Macomb County, Michigan
+2 SOUR @S5@
+1 CENS
+2 DATE 1930
+2 PLAC Roseville, Macomb County, Michigan
+2 SOUR @S5@
+1 MARR
+2 DATE 12 JUN 1926
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S56@
+3 QUAY 3
+1 RESI
+2 PLAC Roseville, Macomb County, Michigan
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Harley & Maude m12 Jun 1926.jpg
+0 @F4@ FAM
+1 HUSB @I9@
+1 WIFE @I8@
+1 CHIL @I7@
+1 MARR
+2 DATE 21 NOV 1888
+2 PLAC Newark Valley, Tioga County, New York
+2 SOUR @S2@
+3 PAGE page 362
+2 SOUR @S53@
+2 SOUR @S54@
+2 SOUR @S55@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Herbert Lee & Jennie m21 Nov 1888.jpg
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Abbey, Herbert L & Jennie L (Witter).JPG
+1 SOUR @S2@
+2 PAGE page 255; 362
+0 @F5@ FAM
+1 HUSB @I11@
+1 WIFE @I10@
+1 CHIL @I14@
+1 CHIL @I30@
+1 CHIL @I50@
+1 CHIL @I60@
+1 CHIL @I79@
+1 CHIL @I85@
+1 CHIL @I93@
+1 MARR
+2 DATE 2 AUG 1947
+2 PLAC Roseville, Erin Township, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S57@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Crane, Roy & Vera Louise m 2 Aug 1947.jpg
+0 @F6@ FAM
+1 HUSB @I13@
+1 WIFE @I12@
+1 CHIL @I11@
+1 MARR
+2 DATE 12 FEB 1916
+2 PLAC Salem, Washington County, Indiana
+2 SOUR @S26@
+0 @F7@ FAM
+1 HUSB @I15@
+1 WIFE @I14@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I24@
+1 CHIL @I26@
+1 CHIL @I27@
+1 CHIL @I28@
+1 CHIL @I29@
+1 MARR
+2 DATE 24 JUL 1970
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+1 SOUR @S26@
+1 SOUR @S33@
+0 @F8@ FAM
+1 HUSB @I17@
+1 WIFE @I16@
+1 CHIL @I15@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+0 @F9@ FAM
+1 HUSB @I20@
+1 WIFE @I19@
+1 CHIL @I23@
+1 MARR
+2 DATE 17 JUN 1995
+2 PLAC Grace Baptist Church, Owatonna, Minnesota
+2 SOUR @S26@
+2 SOUR @S33@
+0 @F10@ FAM
+1 HUSB @I22@
+1 WIFE @I21@
+1 CHIL @I20@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S26@
+0 @F11@ FAM
+1 HUSB @I24@
+1 WIFE @I25@
+0 @F12@ FAM
+1 HUSB @I31@
+1 WIFE @I30@
+1 CHIL @I34@
+1 CHIL @I39@
+1 CHIL @I42@
+1 CHIL @I47@
+1 CHIL @I48@
+1 CHIL @I49@
+1 MARR
+2 DATE 9 JUL 1971
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+0 @F13@ FAM
+1 HUSB @I33@
+1 WIFE @I32@
+1 CHIL @I31@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S26@
+0 @F14@ FAM
+1 HUSB @I34@
+1 WIFE @I35@
+1 CHIL @I36@
+1 CHIL @I37@
+1 CHIL @I38@
+1 MARR
+2 DATE 20 AUG 1994
+2 PLAC Smiths Creek, St. Clair County, Michigan
+2 SOUR @S42@
+3 QUAY 3
+1 SOUR @S26@
+0 @F15@ FAM
+1 HUSB @I39@
+1 WIFE @I40@
+1 CHIL @I41@
+1 MARR
+2 DATE 3 MAY 1996
+2 PLAC St. Clair County Courthouse, Port Huron, St. Clair County, Michigan
+2 SOUR @S26@
+1 SOUR @S33@
+0 @F16@ FAM
+1 HUSB @I43@
+1 WIFE @I42@
+1 CHIL @I44@
+1 CHIL @I45@
+1 CHIL @I46@
+1 MARR
+2 DATE 6 DEC 1996
+2 PLAC St. Clair County Courthouse, Port Huron, St. Clair County, Michigan
+2 SOUR @S26@
+1 DIV 
+2 DATE 2003
+2 SOUR @S33@
+1 NOTE ____________________
+2 CONT    Silvanovich, Sheila May: Divorce not final court date in January of 2004.
+2 CONT ____________________
+1 SOUR @S26@
+1 SOUR @S33@
+0 @F17@ FAM
+1 HUSB @I51@
+1 WIFE @I50@
+1 CHIL @I54@
+1 CHIL @I55@
+1 CHIL @I56@
+1 CHIL @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+1 MARR
+2 DATE 15 JUN 1973
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+0 @F18@ FAM
+1 HUSB @I53@
+1 WIFE @I52@
+1 CHIL @I51@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S26@
+0 @F19@ FAM
+1 HUSB @I60@
+1 WIFE @I61@
+1 CHIL @I64@
+1 CHIL @I68@
+1 CHIL @I69@
+1 CHIL @I70@
+1 CHIL @I71@
+1 CHIL @I72@
+1 CHIL @I73@
+1 CHIL @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 CHIL @I77@
+1 CHIL @I78@
+1 MARR
+2 DATE 16 JUN 1979
+2 PLAC Wilmington, Deleware
+2 SOUR @S26@
+2 SOUR @S33@
+0 @F20@ FAM
+1 HUSB @I63@
+1 WIFE @I62@
+1 CHIL @I61@
+0 @F21@ FAM
+1 HUSB @I64@
+1 WIFE @I65@
+1 CHIL @I66@
+1 CHIL @I67@
+0 @F22@ FAM
+1 HUSB @I80@
+1 WIFE @I79@
+1 CHIL @I83@
+1 CHIL @I84@
+1 MARR
+2 DATE 17 JUN 1978
+2 PLAC Roseville, Erin Township, Macomb County, Michigan
+2 SOUR @S26@
+2 SOUR @S33@
+0 @F23@ FAM
+1 HUSB @I82@
+1 WIFE @I81@
+1 CHIL @I80@
+1 MARR
+2 DATE 20 DEC ____
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+1 SOUR @S26@
+0 @F24@ FAM
+1 HUSB @I86@
+1 WIFE @I85@
+1 CHIL @I90@
+1 CHIL @I91@
+1 CHIL @I92@
+1 MARR
+2 DATE 25 APR 1981
+2 PLAC Roseville, Erin Township, Macomb County, Michigan
+2 SOUR @S26@
+1 DIV 
+2 DATE 1996
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+0 @F25@ FAM
+1 HUSB @I88@
+1 WIFE @I87@
+1 CHIL @I86@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+1 SOUR @S26@
+0 @F26@ FAM
+1 HUSB @I89@
+1 WIFE @I85@
+1 MARR
+2 DATE 21 MAY 1999
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S33@
+1 SOUR @S33@
+0 @F27@ FAM
+1 HUSB @I93@
+1 WIFE @I94@
+1 CHIL @I97@
+1 CHIL @I98@
+1 MARR
+2 DATE 18 AUG 1985
+2 PLAC Brightwood Christian Church
+2 SOUR @S26@
+1 DIV 
+2 DATE 1997
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S26@
+0 @F28@ FAM
+1 HUSB @I96@
+1 WIFE @I95@
+1 CHIL @I94@
+0 @F29@ FAM
+1 HUSB @I99@
+1 WIFE @I100@
+1 CHIL @I103@
+1 CHIL @I104@
+1 MARR
+2 DATE 30 JUL 1960
+2 PLAC Hazel Park, Oakland County, Michigan
+2 SOUR @S19@
+3 QUAY 3
+0 @F30@ FAM
+1 HUSB @I102@
+1 WIFE @I101@
+1 CHIL @I100@
+1 SOUR @S35@
+2 QUAY 3
+0 @F31@ FAM
+1 HUSB @I104@
+1 WIFE @I105@
+1 CHIL @I106@
+1 CHIL @I107@
+1 MARR
+2 DATE 1989
+2 PLAC Salt Lake City, Salt Lake County, Utah
+2 SOUR @S19@
+0 @F32@ FAM
+1 HUSB @I108@
+1 WIFE @I109@
+1 CHIL @I112@
+1 MARR
+2 DATE 13 DEC 1969
+2 PLAC Guardian Angel Catholic Church, Clawson, Macomb County, Michigan
+2 SOUR @S37@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Roseville, Macomb County, Michigan
+2 SOUR @S36@
+0 @F33@ FAM
+1 HUSB @I111@
+1 WIFE @I110@
+1 CHIL @I109@
+1 MARR
+2 DATE 24 AUG 1927
+2 SOUR @S37@
+0 @F34@ FAM
+1 HUSB @I113@
+1 WIFE @I114@
+1 CHIL @I117@
+1 CHIL @I121@
+1 CHIL @I127@
+1 CHIL @I128@
+1 CHIL @I134@
+1 CHIL @I138@
+1 MARR
+2 DATE 7 JUL 1958
+2 PLAC St. Clair Shores, Macomb County, Michigan
+2 SOUR @S17@
+1 RESI
+2 DATE PRIVATE
+2 PLAC New Baltimore, Macomb County, Michigan
+2 SOUR @S36@
+0 @F35@ FAM
+1 HUSB @I116@
+1 WIFE @I115@
+1 CHIL @I114@
+1 SOUR @S17@
+0 @F36@ FAM
+1 HUSB @I118@
+1 WIFE @I117@
+1 CHIL @I119@
+1 CHIL @I120@
+1 MARR
+2 DATE 13 MAY 1986
+2 PLAC St. Clair Shores, Macomb County, Michigan
+2 SOUR @S19@
+0 @F37@ FAM
+1 HUSB @I121@
+1 WIFE @I122@
+1 CHIL @I125@
+1 CHIL @I126@
+1 MARR
+2 DATE 28 APR 1985
+2 PLAC Texas
+2 SOUR @S19@
+1 RESI
+2 DATE PRIVATE
+2 PLAC San Antonio, Texas
+2 SOUR @S52@
+0 @F38@ FAM
+1 HUSB @I124@
+1 WIFE @I123@
+1 CHIL @I122@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Bedford, Texas
+2 SOUR @S52@
+0 @F39@ FAM
+1 HUSB @I129@
+1 WIFE @I128@
+1 CHIL @I131@
+1 CHIL @I132@
+1 MARR
+2 DATE 23 JUN 1984
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+0 @F40@ FAM
+1 HUSB @I130@
+1 WIFE @I128@
+1 CHIL @I133@
+1 MARR
+2 DATE 1993
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+0 @F41@ FAM
+1 HUSB @I134@
+1 WIFE @I135@
+1 CHIL @I136@
+1 CHIL @I137@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Clinton Township, Macomb County, Michigan
+2 SOUR @S36@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Warren, Macomb County, Michigan
+2 SOUR @S36@
+1 MARR
+2 DATE 28 APR 1988
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+0 @F42@ FAM
+1 HUSB @I139@
+1 WIFE @I140@
+1 CHIL @I143@
+1 CHIL @I150@
+1 RESI
+2 DATE 5 OCT 1963
+2 PLAC Grand Rapids, Kent County, Michigan
+1 RESI
+2 DATE PRIVATE
+2 PLAC Comstock Park, Plainfield Township, Kent County, Michigan
+1 RESI
+2 DATE PRIVATE
+2 PLAC New Haven, Macomb County, Michigan
+1 RESI
+2 DATE PRIVATE
+2 PLAC Marine City, St. Clair County, Michigan
+2 SOUR @S36@
+1 MARR
+2 DATE 5 OCT 1963
+2 PLAC Comstock Park, Plainfield Township, Kent County, Michigan
+2 SOUR @S32@
+0 @F43@ FAM
+1 HUSB @I142@
+1 WIFE @I141@
+1 CHIL @I140@
+1 MARR
+2 DATE 27 SEP 1941
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S58@
+1 SOUR @S39@
+0 @F44@ FAM
+1 HUSB @I143@
+1 WIFE @I144@
+1 MARR
+2 DATE 2 JUL 1988
+2 PLAC Manistee, Manistee County, Michigan
+2 SOUR @S42@
+1 DIV 
+2 DATE 1990
+0 @F45@ FAM
+1 HUSB @I146@
+1 WIFE @I145@
+1 CHIL @I144@
+0 @F46@ FAM
+1 HUSB @I143@
+1 WIFE @I147@
+1 MARR
+2 DATE 25 MAY 1996
+2 PLAC Manistee, Manistee County, Michigan
+2 SOUR @S43@
+1 RESI
+2 DATE PRIVATE
+2 PLAC Manistee, Manistee County, Michigan
+0 @F47@ FAM
+1 HUSB @I149@
+1 WIFE @I148@
+1 CHIL @I147@
+1 MARR
+2 DATE 4 SEP 1948
+2 PLAC Des Moines, Polk County, Iowa
+2 SOUR @S43@
+1 SOUR @S43@
+0 @F48@ FAM
+1 HUSB @I151@
+1 WIFE @I150@
+1 CHIL @I154@
+1 CHIL @I155@
+1 MARR
+2 DATE 8 APR 1989
+2 PLAC Algonac, Clay Township, St. Clair County, Michigan
+2 SOUR @S40@
+1 SOUR @S40@
+0 @F49@ FAM
+1 HUSB @I153@
+1 WIFE @I152@
+1 CHIL @I151@
+1 MARR
+2 DATE 14 JUL 1958
+2 PLAC Algonac, Clay Township, St. Clair County, Michigan
+2 SOUR @S40@
+0 @F50@ FAM
+1 HUSB @I156@
+1 WIFE @I157@
+1 CHIL @I161@
+1 CHIL @I162@
+1 CHIL @I163@
+1 MARR
+2 DATE 17 MAY 1924
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 NOTE ____________________
+2 CONT    Clark, Ruth and Edith: Edward Henry Clark/Arlean Ellen Byers and Floyd Reichow/Ella Marie Wirebaugh had a double wedding ceremony.
+2 CONT ____________________
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Edward Henry & Arlean Ellen m17 May 1924.jpg
+0 @F51@ FAM
+1 HUSB @I159@
+1 WIFE @I158@
+1 CHIL @I157@
+0 @F52@ FAM
+1 HUSB @I156@
+1 WIFE @I160@
+1 MARR
+2 DATE 13 OCT 1973
+2 PLAC Albion, Calhoun County, Michigan
+2 SOUR @S19@
+0 @F53@ FAM
+1 HUSB @I164@
+1 WIFE @I163@
+1 CHIL @I167@
+1 _NMR - Private
+2 DATE PRIVATE
+1 _MSTAT Partners
+0 @F54@ FAM
+1 HUSB @I165@
+1 WIFE @I163@
+1 MARR
+2 DATE 17 SEP 1966
+2 PLAC Michigan
+2 SOUR @S19@
+0 @F55@ FAM
+1 HUSB @I166@
+1 WIFE @I163@
+1 MARR
+2 DATE PRIVATE
+2 PLAC Living Individual - Details Withheld
+0 @F56@ FAM
+1 HUSB @I167@
+1 WIFE @I168@
+0 @F57@ FAM
+1 HUSB @I171@
+1 WIFE @I172@
+1 CHIL @I175@
+1 CHIL @I184@
+1 CHIL @I188@
+1 CHIL @I193@
+1 CHIL @I198@
+1 MARR
+2 DATE 16 NOV 1940
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+1 OBJE 
+2 FORM JPEG
+2 FILE D:\Gen Pic\Clark, Floyd George & Mirielle L m16 Nov1940.jpg
+0 @F58@ FAM
+1 HUSB @I174@
+1 WIFE @I173@
+1 CHIL @I172@
+1 MARR
+2 PLAC Belgium
+2 SOUR @S19@
+0 @F59@ FAM
+1 HUSB @I176@
+1 WIFE @I175@
+1 CHIL @I177@
+1 CHIL @I178@
+1 CHIL @I180@
+1 CHIL @I182@
+1 MARR
+2 DATE 30 SEP 1961
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+0 @F60@ FAM
+1 HUSB @I179@
+1 WIFE @I178@
+1 MARR
+2 DATE 2 SEP 1989
+2 PLAC St. Clair Inn, St. Clair, St. Clair County, Michigan
+2 SOUR @S19@
+0 @F61@ FAM
+1 HUSB @I180@
+1 WIFE @I181@
+1 MARR
+2 DATE 26 APR 1991
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+0 @F62@ FAM
+1 HUSB @I183@
+1 WIFE @I182@
+1 MARR
+2 DATE 3 OCT 1992
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+0 @F63@ FAM
+1 HUSB @I184@
+1 WIFE @I185@
+1 CHIL @I186@
+1 CHIL @I187@
+1 MARR
+2 DATE 8 JUL 1967
+2 PLAC Easton, Pennsylvania
+2 SOUR @S19@
+0 @F64@ FAM
+1 HUSB @I189@
+1 WIFE @I188@
+1 CHIL @I190@
+1 CHIL @I191@
+1 CHIL @I192@
+1 MARR
+2 DATE 30 OCT 1969
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+0 @F65@ FAM
+1 HUSB @I193@
+1 WIFE @I194@
+1 CHIL @I195@
+1 CHIL @I196@
+1 MARR
+2 DATE 8 JUL 1967
+2 PLAC Detroit, Wayne County, Michigan
+2 SOUR @S19@
+0 @F66@ FAM
+1 HUSB @I197@
+1 WIFE @I196@
+1 MARR
+2 DATE SEP 1993
+2 PLAC Living Individual - Details Withheld
+2 SOUR @S19@
+0 @S1@ SOUR
+1 TITL WWI Civilian Draft Registrations
+1 ABBR Civilian Draft Registrations WWI :
+1 REPO @R1@
+2 MEDI Electronic
+0 @S2@ SOUR
+1 AUTH Abbe, Cleveland and Nichols, Josephine Genung
+1 TITL Abbe-Abbey Genealogy In Memory of John Abbey and His Descendants
+1 ABBR Abbe-Abbey Genealogy:
+1 PUBL The Tuttle, Morehouse & Taylor Company, New Haven, Conn.; 1916
+1 REPO @R2@
+2 CALN 929.273  Ab192a
+2 MEDI Book
+0 @S3@ SOUR
+1 AUTH Grimes, Minnie (Abbey)
+1 ABBR Grimes, Minnie (Abbey)
+1 PUBL Family Records
+0 @S4@ SOUR
+1 AUTH Abbey, Charles, cabbey39@yahoo.com
+1 TITL Cemetery: Visual
+1 ABBR Cemetery: Visual:
+1 REPO @R3@
+2 MEDI Other
+0 @S5@ SOUR
+1 AUTH Flynn , Kathy;  Kflynn@wescom.org
+1 TITL 2298071.GED; Flynn/McDonald and their Allied Families
+1 ABBR Flynn, Kathy: GED,2298071
+1 REPO @R4@
+2 MEDI Electronic
+0 @S6@ SOUR
+1 AUTH Abbey, Dennis Sidney and Marilyn (Porto)
+1 ABBR Abbey, Dennis & Marilyn:
+0 @S7@ SOUR
+1 TITL Directory: Steuben County, New York, 1891
+1 ABBR Directory: Steuben County, New York, 1891:
+1 REPO @R5@
+2 MEDI Electronic
+0 @S8@ SOUR
+1 AUTH Demonstoy, Herman
+1 ABBR Demonstoy, Herman:
+1 PUBL Church of Latter Day Saints; Compact Disc #29
+1 NOTE  - (no contact - information from the internet)
+1 REPO @R6@
+2 MEDI Electronic
+0 @S9@ SOUR
+1 TITL Vernona, Oneida County, New York; 1880 Federal Census
+1 ABBR Census: 1880: Federal: NY:
+1 REPO @R7@
+2 MEDI Electronic
+0 @S10@ SOUR
+1 ABBR http://www.paintedhills.org/:
+1 PUBL http://www.paintedhills.org/
+0 @S11@ SOUR
+1 TITL Funeral Home Announcement
+1 ABBR Funeral Home Announcement
+1 PUBL Clyne Funeral home, East Detroit, Macomb, Michigan
+1 NOTE now Eastpointe, Michigan
+0 @S12@ SOUR
+1 TITL Vital Records: Michigan; Macomb County; Mt. Clemens: Death
+1 ABBR Vital Records: MI; Macomb County; Mt. Clemens: Death
+1 REPO @R9@
+2 MEDI Book
+0 @S13@ SOUR
+1 TITL Social Security Death Index
+1 ABBR SSDI:
+1 REPO @R10@
+2 MEDI Electronic
+0 @S14@ SOUR
+1 TITL Census: Federal: 1900
+1 ABBR Census: Federal: 1900:
+0 @S15@ SOUR
+1 TITL Census: Federal: 1920
+1 ABBR Census: Federal: 1920:
+0 @S16@ SOUR
+1 TITL Census, Federal: Michigan: Macomb County
+1 ABBR Census, Federal
+1 REPO @R11@
+2 MEDI Electronic
+0 @S17@ SOUR
+1 TITL Records: Family: Abbey, Harley R.
+1 ABBR Records: Family: Abbey, Harley R.:
+0 @S18@ SOUR
+1 TITL Calhoun County, Michigan; Vital Records
+1 ABBR Vital Records: MI: Calhoun County
+1 REPO @R13@
+2 MEDI Book
+0 @S19@ SOUR
+1 AUTH Clark, Ruth & Edith:
+1 ABBR Clark, Ruth & Edith:
+0 @S20@ SOUR
+1 TITL Letter to Parents: Huron Park School
+1 ABBR Letter to Parents:
+0 @S21@ SOUR
+1 TITL Funeral Home Card
+1 ABBR Funeral Home Card:
+0 @S22@ SOUR
+1 TITL Vital Records: Michigan; Macomb County; Mt. Clemens: Autopsy
+1 ABBR Vital Records: MI; Macomb; Mt. Clemens: Autopsy
+1 REPO @R14@
+2 MEDI Other
+0 @S23@ SOUR
+1 TITL Death Notice: Abbey, Maude B.
+1 ABBR Death Notice
+0 @S24@ SOUR
+1 TITL Records: School: Western State Normal School
+1 ABBR Records: School: Western State Normal School
+1 REPO @R15@
+2 MEDI Other
+0 @S26@ SOUR
+1 AUTH Crane, Vera
+1 ABBR Crane, Vera
+0 @S27@ SOUR
+1 TITL Funeral Audio Tape
+1 ABBR Funeral Audio Tape
+1 REPO @R16@
+2 MEDI Other
+0 @S28@ SOUR
+1 AUTH Clark, Ruth and Edit
+1 TITL Death Nothice
+1 ABBR Death Nothice
+1 PUBL Clyne Funeral Home, East Detroit, MI
+0 @S29@ SOUR
+1 AUTH Abbey Family, HRA
+1 ABBR Abbey Family, HRA:
+0 @S30@ SOUR
+1 TITL Family Birth Announcement
+1 ABBR Family Birth Announcement
+1 REPO @R20@
+2 MEDI Other
+0 @S31@ SOUR
+1 TITL Birth Certificate
+1 ABBR Birth Certificate:
+0 @S32@ SOUR
+1 TITL Marriage Certificate
+1 ABBR Marriage Certificate:
+1 REPO @R21@
+2 MEDI Other
+0 @S33@ SOUR
+1 AUTH Silvanovich, Sheila May (Crane)
+1 ABBR Silvanovich, Sheila May
+0 @S34@ SOUR
+1 AUTH Clark, Ruth and Edith
+1 TITL Abbey, Joyce (Melligan)
+1 ABBR Abbey, Joyce (Melligan)
+1 REPO @R24@
+2 MEDI Other
+0 @S35@ SOUR
+1 AUTH Abbey, Joyce (Melligan)
+1 ABBR Abbey, Joyce (Melligan)
+0 @S36@ SOUR
+1 TITL World Book of Abbey's, The
+1 ABBR World Book of Abbey's, The
+1 PUBL Halburton
+0 @S37@ SOUR
+1 AUTH Abbey, Sarah "Sally" (O'Hare)
+1 ABBR Abbey, Sarah "Sally" (O'Hare):
+1 REPO @R27@
+2 MEDI Other
+0 @S38@ SOUR
+1 AUTH Clark, Ruth and Edith
+1 TITL Death Notice
+1 ABBR Death Notice
+1 PUBL Clyne Funeral Home, East Detroit, MI
+0 @S39@ SOUR
+1 AUTH Huber, Nora Jean
+1 ABBR Huber, Nora Jean:
+1 REPO @R32@
+2 MEDI Other
+0 @S40@ SOUR
+1 AUTH Bradd, Daniel and Aleece
+1 ABBR Bradd, Daniel and Aleece:
+0 @S41@ SOUR
+1 AUTH Abbey, Ronald James and Laura
+1 ABBR Abbey, Ronald James & Laura:
+0 @S42@ SOUR
+1 TITL Wedding Invitation
+1 ABBR Wedding Invitation
+1 REPO @R36@
+2 MEDI Other
+0 @S43@ SOUR
+1 AUTH Abbey, Janet M. (Low)
+1 ABBR Abbey, Janet M. (Low):
+0 @S44@ SOUR
+1 TITL Obituary; Michigan; Macomb County; Mount Clemens
+1 ABBR Obituary: Michigan:
+1 PUBL The Macomb Daily
+0 @S45@ SOUR
+1 AUTH Tombstone
+1 ABBR Tombstone
+1 PUBL Ancestry.com
+1 NOTE Information from this source supplied by aeggler@hotmail.com
+1 REPO @R38@
+2 MEDI Electronic
+0 @S46@ SOUR
+1 TITL Cemetery Records: Fairview Cemetery, Homer, Calhoun County, Michigan
+1 ABBR Records: Cemetery: MI: Calhoun: Homer: Fairview:
+0 @S47@ SOUR
+1 TITL Cemetery Records: Michigan: Calhoun County: Homer:  Fairview Cemetery
+1 ABBR Cemetery: MI: Calhoun County:
+1 REPO @R39@
+2 MEDI Other
+0 @S48@ SOUR
+1 AUTH Fairview Cemetery Caretaker
+1 ABBR Fairview Cemetery Caretaker:
+0 @S49@ SOUR
+1 TITL Census: 1850: New York: Monroe: Pittsford
+1 ABBR Census: 1850: New York:
+1 NOTE Entry # 15-20: Dwelling 755: Family 755
+1 REPO @R42@
+2 MEDI Microfilm
+0 @S50@ SOUR
+1 TITL Ships Passenger List
+1 ABBR Ships Passenger List
+1 REPO @R43@
+2 MEDI Film
+0 @S51@ SOUR
+1 TITL Obituary: Michigan: Emmet County; Petosky
+1 ABBR Obituary: Michigan:
+0 @S52@ SOUR
+1 TITL Fort Worth Star-Telegram (Texas) Obituaries, 1990-2000
+1 ABBR Obituary: Texas: Fort Worth-Fort Worth Star-Telegram
+1 PUBL Fort Worth Star-Telegram
+1 REPO @R44@
+2 MEDI Electronic
+0 @S53@ SOUR
+1 TITL Vital Records: Michigan: Macomb County
+1 ABBR Vital Records: Michigan: Macomb County
+1 REPO @R45@
+2 MEDI Other
+0 @S54@ SOUR
+1 AUTH Dawson, Amanda; dawson@clarityconnect.com
+1 ABBR Dawson, Amanda:
+1 NOTE  - had contact - very helpful
+1 REPO @R46@
+2 MEDI Electronic
+0 @S55@ SOUR
+1 ABBR Owego Gazette
+1 PUBL Owego Gazette, Oct. 14, 1920
+1 NOTE Information from this source supplied by Dawson, Amanda; dawson@clarityconnect.com
+1 REPO @R47@
+2 MEDI Newspaper
+0 @S56@ SOUR
+1 TITL Wedding Invitation
+1 ABBR Wedding Invitation
+1 NOTE for Harley R. Abbey and Maude B. Clark
+1 REPO @R49@
+2 MEDI Other
+0 @S57@ SOUR
+1 TITL Wedding Notice:
+1 ABBR Wedding Notice:
+1 REPO @R50@
+2 MEDI Newspaper
+0 @S58@ SOUR
+1 AUTH Marriage Certificate: John Jackle age 33 White res.Detroit, Mich. b.Germany
+1 TITL Tool-Die Maker F.Johann M.Anna Zeus Prev.marr.once;Nora Jean Huberage 24White
+1 ABBR Marriage Certificate
+0 @R1@ REPO
+1 ADDR ancestry.com
+0 @R2@ REPO
+1 ADDR My Files
+0 @R3@ REPO
+1 ADDR Charles Abbey: Visual
+0 @R4@ REPO
+1 ADDR Roots Web's World Connect Project
+0 @R5@ REPO
+1 ADDR ancestry.com
+0 @R6@ REPO
+1 ADDR familysearch.com
+0 @R7@ REPO
+1 ADDR Internet
+0 @R9@ REPO
+1 ADDR Courthouse
+0 @R10@ REPO
+1 ADDR ancestry.com
+0 @R11@ REPO
+1 ADDR Public Library; Michigan, Kalamazoo County, Kalamazoo
+0 @R13@ REPO
+1 ADDR County Court House
+0 @R14@ REPO
+1 ADDR Courthouse
+0 @R15@ REPO
+1 ADDR Courthouse
+0 @R16@ REPO
+1 ADDR Courthouse
+0 @R20@ REPO
+1 ADDR Courthouse
+0 @R21@ REPO
+1 ADDR Courthouse
+0 @R24@ REPO
+1 ADDR Courthouse
+0 @R27@ REPO
+1 ADDR Courthouse
+0 @R32@ REPO
+1 ADDR Verbal
+0 @R36@ REPO
+1 ADDR ancestry.com
+0 @R38@ REPO
+1 ADDR ancestry.com
+0 @R39@ REPO
+1 ADDR My Files
+0 @R42@ REPO
+1 ADDR Public Library, Allen County
+2 CONT Genealogy Department
+2 CONT 900 Webster Street
+2 CONT Fort Wayne
+2 CONT Indiana
+1 WWW http://www.acpl.lib.in.us/genealogy/whoweare.html
+0 @R43@ REPO
+1 ADDR Public Library, Allen County
+2 CONT Genealogy Department
+2 CONT 900 Webster Street
+2 CONT Fort Wayne
+2 CONT Indiana
+1 WWW http://www.acpl.lib.in.us/genealogy/whoweare.html
+0 @R44@ REPO
+1 ADDR ancestry.com
+0 @R45@ REPO
+1 ADDR Courthouse
+0 @R46@ REPO
+1 ADDR My Files
+0 @R47@ REPO
+1 ADDR County Court House
+0 @R49@ REPO
+1 ADDR ancestry.com
+0 @R50@ REPO
+1 ADDR Courthouse
+0 TRLR

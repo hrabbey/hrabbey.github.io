@@ -1,0 +1,1383 @@
+#!/bin/bash
+#     Script to convert from deb to ipk
+# takes important stuff and repackages it.
+# Depends on ipkg-build. 
+# currently specifically for wwwoffle, but hopefully can be generalized
+# hopefully, maybe alien will support ipk soon.
+#
+# Copyright under GPL by Howard Abbey
+#
+# Configuration
+#
+# Local network IP:
+LOCALIP=192.168.1.2
+# Desktop IP:
+DESKIP=192.168.1.1
+# parent web proxy or none
+#PROXY=$DESKIP:8080
+PROXY=none
+#
+# Information about user of this script:
+USERNAME="Cowardly User"
+USERMAIL="nobody@hotmail.com"
+USER="$USERNAME < $USERMAIL > "
+WORKDIR=/tmp
+IPKGBUILD=$WORKDIR/ipkg-build 
+#
+NAME=wwwoffle
+VER=2.5c-10
+PKG=$NAME\_$VER
+# falls under Zaurus specified Console category
+#  change Section: to conform with Ben Meyer (of Sharp)'s wishes
+#NEWSECTION=Console/web
+NEWSECTION=Console-web
+#
+#LNG can be: en de fr es
+# should try to determine from $LANG environment setting.
+LNG=en
+##
+##
+# This script depends on:
+#ipkg-build, zip, and misc. common utils.
+# should check for their existence.
+##
+# should compare my comments to those alien uses.
+# should convince / beg alien to support ipks
+# should make sure root (cause can't chown to root), perferably by fakeroot
+# should make usable on Z.  Main problems: size and ext2 fs requirement
+# should pay attention to directory ownership for future PDA multiuser system
+# should be able to extract desired files, and new files into seperate included files
+# grep should $0 for more.
+##
+SVER=0.02b
+#######
+echo Repackaging $NAME
+#
+# seems to need a capitalization aware filesystem (like ext2, unlike vfat)
+# Definitely needs a symlink capable filesystem (like ext2)
+# make a loopback filesystem file?
+#cd $WORKDIR
+#touch TEST
+## if ...NOT EXIST TEST echo error, can't write capitals to this directory then exit 1
+#rm TEST || rm test
+# should Check if enough room: 3x size of deb?
+# wwwoffle (a 520k deb) takes > 1.9meg.
+#
+# Unpack
+mkdir $WORKDIR/Deb2ipk
+cd $WORKDIR/Deb2ipk
+mkdir DEBIAN
+dpkg-deb -e $WORKDIR/$PKG.deb DEBIAN/CONTROL
+dpkg-deb -x $WORKDIR/$PKG.deb DEBIAN
+# Package copyright Notice: since won't be in ipk, bug interactively.
+#  Sharing ipk w/o this copyright maybe a violation...
+#  and no room / appropriate place for it on the handheld.
+#  should find if /where GPL is on Zaurus, and reference it if appropriate.
+more DEBIAN/usr/share/doc/$NAME/copyright
+mkdir $PKG
+mkdir $PKG/CONTROL
+### Custom for package:
+# should generalize or auto detect if possible
+# should be able to extract into a regexp or seperate file list
+###
+#mv DEBIAN/etc $PKG/etc
+mkdir $PKG/etc
+# should edit init.d file cause contains non-Zaurus standard commands, like install and start-stop-daemon
+# worthless in current state. New one created below.
+# Move from /etc/init.d to /etc/rc.d/init.d
+#mkdir $PKG/etc/rc.d/init.d
+#mv_and_parse DEBIAN/etc/init.d/wwwoffle $PKG/etc/init.d/wwwoffle
+#
+# exclude /etc/logrotate.d/wwwoffle
+# should move /etc/ppp/ip-*.d/* to a directory of scripts to be run on sync, 
+#   but no standard place yet?
+# For now just have users use control web page.
+#mv DEBIAN/etc/ppp/ip-up.d/1wwwoffle $PKG/...
+#mv DEBIAN/etc/ppp/ip-down.d/99wwwoffle $PKG/...
+#
+mkdir $PKG/etc/wwwoffle
+# exclude /etc/wwwoffle/ht*  for htDig
+# exclude /etc/wwwoffle/robots.txt symlink
+# exclude /etc/wwwoffle/wwwoffle.pac
+# Eliminate symlink need:
+mkdir $PKG/usr
+mkdir $PKG/usr/share
+mkdir $PKG/usr/share/wwwoffle
+mkdir $PKG/usr/share/wwwoffle/html
+mkdir $PKG/usr/share/wwwoffle/html/local
+mkdir $PKG/usr/share/wwwoffle/html/local/images
+mv DEBIAN/etc/wwwoffle/debian-replacement-image.gif.orig \
+       $PKG/usr/share/wwwoffle/html/local/images/trans-1x1.gif
+mv DEBIAN/etc/wwwoffle/wwwoffle.options $PKG/etc/wwwoffle/wwwoffle.options
+# Main Configuration file, need to give option of changing:
+# should and shall change config file, by either editing or replacing.  
+# may want to remove comments to save space: grep -v "^#", 
+#  but not quite that simple due to usage in wwwoffle-stopCaching...
+# should have configurable movable directories if can't install to SD or CF.
+#  /usr/share/wwwoffle/html/
+#  /var/cache/wwwoffle/
+#parse_mythical_debconf DEBIAN/etc/wwwoffle/wwwoffle.conf $PKG/etc/wwwoffle/wwwoffle.conf
+#
+mv DEBIAN/var $PKG/var
+# remove var/cache/wwwoffle/htdig
+rm -r $PKG/var/cache/wwwoffle/htdig
+#
+# usr dir:
+mkdir $PKG/usr/bin
+# exclude wwwoffle-htdig*, wwwoffle-upgrade*, wwwoffle-tools, etc.
+mv DEBIAN/usr/bin/wwwoffle $PKG/usr/bin/wwwoffle
+#rm $PKG/usr/bin/wwwoffle-*
+# exclude usr/lib/cgi-bin/wwwoffle-htsearch
+# exclude Debian menu file usr/lib/menu/wwwoffle
+mv DEBIAN/usr/sbin $PKG/usr/sbin
+# exclude other languages, eliminate need of symlink.
+#mv DEBIAN/usr/share/wwwoffle/html-$LNG $PKG/usr/share/wwwoffle/html
+mv DEBIAN/usr/share/wwwoffle/html-$LNG $PKG/var/cache/wwwoffle/html
+# eliminate symlink
+rm $PKG/var/cache/wwwoffle/html/index.html
+cp $PKG/var/cache/wwwoffle/html/Welcome.html \
+   $PKG/var/cache/wwwoffle/html/index.html
+# remove htdig and fixup-install.sh
+rm -r $PKG/var/cache/wwwoffle/html/htdig
+rm $PKG/var/cache/wwwoffle/html/fixup-install.sh
+#
+# exclude usr/share/doc and usr/share/man 
+#
+##
+# Items from postinst:
+#
+# update-rc.d...
+#  also move from /etc/rc#.d to /etc/rc.d/rc#.d
+#  Need to fix init.d script first.  
+# 
+#####
+# New Scripts and files created:
+
+# For now make own init.d script.
+cd $WORKDIR/Deb2ipk/$PKG/etc/
+mkdir $WORKDIR/Deb2ipk/$PKG/etc/rc.d
+mkdir $WORKDIR/Deb2ipk/$PKG/etc/rc.d/init.d
+echo "
+#
+# Init Script for ipk'd wwwoffle made by Howard Abbey 
+#
+#
+# should add on start
+# Start daemon
+wwwoffled 
+#
+# This package includes a script that can configure Opera on boot, but it 
+#  would erase any current settings.  
+# This wouldd handle the first time Qtopia starts on booting, but if
+#  Qtopia is restarted, the script needs to be run again.
+# Waiting 60 seconds for Qtopia to start is a tad long, 
+#  but better to be on the safe side.
+# For a setup using just the localhost proxy, uncomment the next line(s).
+#eval 'sleep 60; wwwoffled-configZaurusProxy.sh '
+# For other setups, edit as needed:
+#  /home/root/Applications/Network/modules/Proxies.conf.wwwoffle 
+#
+# should add on stop
+# should add restart
+# should add reload
+#
+" > $WORKDIR/Deb2ipk/$PKG/etc/rc.d/init.d/wwwoffle
+chmod a+x $WORKDIR/Deb2ipk/$PKG/etc/rc.d/init.d/wwwoffle
+#
+# Make script to configure web proxy
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-configZaurusProxy.sh
+#
+# wwwoffled-configZaurusProxy.sh by Howard Abbey
+# This package includes a script that can configure Opera on boot, but it 
+#  erases any current settings.  
+# This needs to be run each time Qtopia is restarted.
+#  should find out correct, persistent way to set proxy
+#
+### Opera / Qtopia?: Proxies.conf
+if [ ! -e /home/root/Applications/Network/modules/Proxies.conf.bak ] 
+   then
+     cp /home/root/Applications/Network/modules/Proxies.conf   \
+        /home/root/Applications/Network/modules/Proxies.conf.bak 
+fi
+# Copy a know usable (but not understood) proxy config:
+cp /home/root/Applications/Network/modules/Proxies.conf.wwwoffle  \
+   /home/root/Applications/Network/modules/Proxies.conf 
+#
+# Konqueror configuration:
+if [ -e /home/root/.kde/share/config/konq-embedrc ] 
+ then
+  if [ ! -e /home/root/.kde/share/config/konq-embedrc.bak ] 
+   then
+     cp /home/root/.kde/share/config/konq-embedrc \
+        /home/root/.kde/share/config/konq-embedrc.bak
+  fi
+  # Edit config for local web proxy
+  #  should check that current proxy (or lack thereof) matches wwwoffle.conf's
+
+  if [ 0 == \`grep -c ^HTTPProxyServer=.* /home/root/.kde/share/config/konq-embedrc \` ]
+    then
+      echo "[Network Settings]
+HTTPProxyServer=http://localhost:8080/" \
+      >> /home/root/.kde/share/config/konq-embedrc
+  fi
+fi
+#
+# should add Sikigamis? (on SL-A300) configurations.
+#
+#
+EOF
+#
+chmod a+x $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-configZaurusProxy.sh
+#
+mkdir $WORKDIR/Deb2ipk/$PKG/etc/rc.d/rc5.d
+cd $WORKDIR/Deb2ipk/$PKG/etc/rc.d/rc5.d
+# should start time still be 20?
+# should use symlink instead of copies, but symlinks not on vfat.
+# so use copies for now so can install to flash
+#ln -s ../init.d/wwwoffle S20wwwoffle
+cp ../init.d/wwwoffle S20wwwoffle
+# should make rest of rc links, but currently don't have shutdown option
+#ln -s /etc/rc.d/init.d/wwwoffle  rc0-6.d/SK20wwwoffle
+#
+#
+# Web browser proxy configuration:
+##Opera / Qtopia?: Proxies.conf
+# should add Konqueror and Sikigami's? (on SL-A300) configurations.
+# should be able to create multiple level directories at once?
+cd $WORKDIR/Deb2ipk/
+mkdir $PKG/home
+mkdir $PKG/home/root
+mkdir $PKG/home/root/Applications
+mkdir $PKG/home/root/Applications/Network
+mkdir $PKG/home/root/Applications/Network/modules
+# will not overwrite network config without permission; instead give example:
+#
+# Make proxy configuration example file
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/home/root/Applications/Network/modules/Proxies.conf.wwwoffle  
+[Info]
+[Properties]
+autoconfig =
+ftphost =
+ftpport = 8080
+httphost = 127.0.0.1
+httpport = 8080
+noproxies =
+type = 2
+EOF
+#
+# Make script to stop caching pages:
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-stopCaching
+#!/bin/bash
+#
+#  Stop wwwoffle from caching pages viewed.
+#by changing the config file
+/bin/sed -f /usr/share/wwwoffle/stopCaching.sed /etc/wwwoffle/wwwoffle.conf \
+ > /tmp/wwwoffle.conf.new
+mv /tmp/wwwoffle.conf.new /etc/wwwoffle/wwwoffle.conf
+wwwoffle -config
+EOF
+#
+# Make script helper file:
+#  should be a better directory for sed files: see Linux FSTND & wwwoffle.deb
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/usr/share/wwwoffle/stopCaching.sed
+# sed script used with /usr/bin/wwwoffled-stopCaching
+/^# wwwoffle-ipk DisableCache Option:/{
+n
+c\\
+ *://*/  
+}
+EOF
+#
+# Make script to resume caching pages:
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-resumeCaching
+#!/bin/bash
+#
+#  Undo stopping wwwoffle from caching pages viewed.
+#by changing the config file
+/bin/sed -f /usr/share/wwwoffle/resumeCaching.sed /etc/wwwoffle/wwwoffle.conf \
+ > /tmp/wwwoffle.conf.new
+mv /tmp/wwwoffle.conf.new /etc/wwwoffle/wwwoffle.conf
+wwwoffle -config
+EOF
+#
+# Make script helper file:
+#  should be a better directory for sed files: see Linux FSTND & wwwoffle.deb
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/usr/share/wwwoffle/resumeCaching.sed
+# sed script used with /usr/bin/wwwoffled-resumeCaching
+/^# wwwoffle-ipk DisableCache Option:/{
+n
+c\\
+#wwwoffle-ipk# *://*/   
+}
+EOF
+#
+chmod a+x $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-stopCaching
+chmod a+x $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-resumeCaching 
+#
+# Make script to Adjust WWWOffLE cache size:
+cat <<ENDOFFILE > $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-adjCacheSize
+#!/bin/bash
+#
+# Adjust WWWOffLE cache size
+#
+# get size in meg:
+NEWSIZE=\$1
+#should check is a number
+# create sed script
+cat <<EOF >/tmp/adjCacheSize.sed
+# sed script used with /usr/bin/wwwoffled-adjCacheSize
+/^# wwwoffle-ipk CacheSize Option:/{
+n
+c\\\\
+max-size      = \$NEWSIZE
+}
+EOF
+#
+# change the config file
+/bin/sed -f /tmp/adjCacheSize.sed /etc/wwwoffle/wwwoffle.conf \
+ > /tmp/wwwoffle.conf.new
+mv /tmp/wwwoffle.conf.new /etc/wwwoffle/wwwoffle.conf
+wwwoffle -config
+rm -f /tmp/adjCacheSize.sed
+#
+echo New cache size is \$NEWSIZE meg.
+#
+ENDOFFILE
+#
+chmod a+x $WORKDIR/Deb2ipk/$PKG/usr/bin/wwwoffled-adjCacheSize
+#
+#
+# Make intro web page for web page server:
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/var/cache/wwwoffle/html/local/index.html
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Howard Abbey, from Apache original by johnie@debian.org (Johnie Ingram)">
+   <TITLE>Welcome to Your New Home Page!</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EF" VLINK="#55188A" ALINK="#FF0000">
+
+<!-- 
+This page shamelessly extracted from Apache on Debian by Howard Abbey, 
+and changed (in)appropriately for WWWOFFLE in an ipk package. 
+The original was by johnie@debian.org (Johnie Ingram)
+-->
+
+<BR>
+
+<H1>
+Welcome to Your New (mobile) Home in Cyberspace!</H1>
+
+<HR NOSHADE>
+<BR>
+
+<P>This is a placeholder page installed by the repackaged ipk of the <A HREF="http://www.debian.org/">Debian</A>
+release of the <A HREF="http://www.gedanken.demon.co.uk/wwwoffle/">WWWOFFLE</A> Web Offline Explorer package,
+because no home page was installed on this host. You may want to replace
+this as soon as possible with your own web pages, of course....
+
+<P>Unless you changed its configuration, the server is configured as follows:
+<UL>
+<LI>
+Configuration files can be found in <TT>/etc/wwwoffle</TT>.</LI>
+
+<LI>
+The directory under which all your
+HTML files should exist, is set to <TT>/var/cache/wwwoffle/html/local</TT>.</LI>
+</ul>
+
+
+<P>If you find a bug in this WWWOFFLE ipk package, 
+please forward it to the <A HREF="mailto:$USERMAIL">creator of this
+package</A> who will take appropriate action. 
+
+<P>Thanks for using this package, and congratulations for your choice of
+a ipk based system!
+</p>
+
+<BR>
+
+
+<P>
+<HR NOSHADE>
+<FONT SIZE=-1><A HREF="http://hrabbey.webhop.net/">Howard Abbey</A>,
+Roseville, Michigan &nbsp;&nbsp; June 25, 2002.</FONT>
+
+</BODY>
+</HTML>
+EOF
+# should the above be in usr/...share/...local?
+#
+# Main Configuration file: wwwoffle.conf
+# should give option of changing and or customize via debconf.
+# may want to remove comments to save space: grep -v "^#" |
+##parse_mythical DEBIAN/etc/wwwoffle/wwwoffle.conf $PKG/etc/wwwoffle/wwwoffle.conf
+#  has cache dir on flash card
+#  [ 2 reasons for this: size (duh) and the var dir. is cleared on reboot]
+#    should recreate var dir with corrected init.d script.
+#  using desktop web proxy: could be done via existing debconf
+#  with no syslog usage
+#  run as root
+
+# should keep this huge conf file separate from this script.
+#
+# should check if moving cache dir not needed, if installs okay to CF 
+#  and SD, and var links not wiped.  
+#
+cat <<EOF > $WORKDIR/Deb2ipk/$PKG/etc/wwwoffle/wwwoffle.conf
+#
+# WWWOFFLE - World Wide Web Offline Explorer - Version 2.4b.
+#
+# WWWOFFLE Configuration file /etc/wwwoffle.conf
+#
+# Derived from the example configuration file written by Andrew M. Bishop
+# Changes made for the ipk packaging by Howard Abbey are marked 
+# by #wwwoffle-ipk# 
+#
+# WWWOFFLE and example configuration file Copyright 1997,98,99 Andrew M. Bishop
+# They may be distributed under the GNU Public License, version 2, or
+# any higher version.  See section COPYING of the GNU Public license
+# for conditions under which this file may be redistributed.
+#
+
+
+#
+# Lines beginning with a '#' are comments and ignored.
+#
+
+
+#
+# Program startup configuration.
+#
+# This can not be changed without restarting the program.
+#
+# Header : StartUp
+# Options: http-port         = <integer>
+#               The port number to use for the proxy http server (default=8080).
+#        : wwwoffle-port     = <integer>
+#               The port number to use for wwwoffle control (default=8081).
+#        : spool-dir         = <directory name>
+#               The directory to use as the spool directory
+#               (default=/var/cache/wwwoffle).
+#wwwoffle-ipk#  Liar!?!  There is NO default, it must be specified.  True?
+#        : run-uid           = <username> | <uid>
+#               The username or numeric uid to run the wwwoffled server as
+#               (default=none).
+#        : run-gid           = <groupname> | <gid>
+#               The groupname or numeric gid to run the wwwoffled server as
+#               (default=none).
+#        : use-syslog        = yes | no
+#               If true then log all important messages using syslog
+#               (default=yes).
+#        : password          = <word> | none |
+#               The authorisation password for demon configuration by wwwoffle
+#               (default=none).
+#        : max-servers       = <integer>
+#               The maximum number of server processes that are ever started,
+#               must be less than MAX_SERVERS (=64) (default=8).
+#        : max-fetch-servers = <integer>
+#               The maximum number of server processes that are started to
+#               fetch pages that were requested in offline mode, must be less
+#               than MAX_FETCH_SERVERS (=48). (default=4).
+#
+# Notes 1: For the password to work the configuration file must be set so that
+#          only authorised users can read it.
+#       2: The run-uid/run-gid options are not applicable to win32 (Win95/98).
+#       3: To use the run-uid/run-gid options server must be started as root.
+#       4: The max-fetch-servers value must be less than max-servers or you will
+#          not be able to use wwwoffle interactively online while fetching.
+#
+
+StartUp
+{
+# http-port	= 8080
+# wwwoffle-port	= 8081
+
+ spool-dir	= /var/cache/wwwoffle
+
+ #wwwoffle-ipk#run-uid	= proxy
+ run-uid	= root
+#wwwoffle-ipk# run-gid	= proxy
+ run-gid	= root
+
+#wwwoffle-ipk# use-syslog	= yes
+ use-syslog	= no
+
+# password	= none
+
+#wwwoffle-ipk# max-servers	= 8
+max-servers	= 3
+#wwwoffle-ipk# max-fetch-servers = 4
+ max-fetch-servers = 2
+}
+
+
+#
+# Other configuration options.
+#
+# Header : Options
+# Options: log-level         = debug | info | important | warning | fatal
+#               Log messages with this or higher priority (default=important).
+#          index-latest-days = <age>
+#               The age in days of pages to show in the index of latest pages
+#               (default=7).
+#          request-changed   = <time>
+#               While online pages will only be fetched if the cached version
+#               is older than this specified time in seconds (default=600).
+#          request-changed-once = yes | no
+#               While online pages will only be fetched if the cached version
+#               has not already been fetched once this session (default=yes).
+#          pragma-no-cache   = yes | no
+#               Whether to request a new copy of a page if the request has
+#               'Pragma: no-cache' (default=yes).
+#          confirm-requests  = yes | no
+#               Whether to return a page requiring user confirmation instead of
+#               automatically recording requests made while offline
+#               (default=no).
+#          socket-timeout    = <time>
+#               The time in seconds that wwwoffle will wait for data before
+#               giving up on a socket connection (default=120).
+#          connect-retry     = yes | no
+#               If a connection cannot be made to a remote server
+#               then try again after a short delay (default=no).
+#          ssl-allow-port    = <integer>
+#               A port number that can be used for Secure Socket Layer (SSL)
+#               connections, e.g. https.
+#
+#  Notes 1: The request-changed option can be set negative to indicate that
+#           cached pages are always used while online.
+#        2: The request-changed-once option takes precedence over the
+#           request-changed option.
+#        3: The pragma-no-cache option should be set to 'no' if when browsing
+#           offline all pages are re-requested by a 'broken' browser.
+#        4: The ssl-allow-port should be set to 443 to allow https, there can be
+#           more than one ssl-allow-port entry for other ports as required.
+#
+
+Options
+{
+# log-level            = important
+
+# index-latest-days    = 7
+
+# request-changed      = 600
+
+# request-changed-once = yes
+
+# pragma-no-cache      = yes
+
+# confirm-requests     = no
+
+#wwwoffle-ipk# socket-timeout       = 120
+socket-timeout       = 12
+
+ connect-retry        = no
+
+ ssl-allow-port       = 443
+
+ intr-download-keep    = no
+ intr-download-size    = 1
+ intr-download-percent = 80
+
+ timeout-download-keep = no
+
+ connect-timeout = 30
+
+ request-expired = no
+
+ request-no-cache = no
+}
+
+
+#
+# Automatic Fetch options.
+#
+# Header : FetchOptions
+# Options: stylesheets = yes | no
+#               If style sheets are to be fetched.
+#          images       = yes | no
+#               If images are to be fetched.
+#          frames       = yes | no
+#               If frames are to be fetched.
+#          scripts      = yes | no
+#               If scripts are to be fetched.
+#          objects      = yes | no
+#               If objects (e.g. Java class files ) are to be fetched.
+#
+# Notes 1: These options all default to 'no' if nothing is specified.
+#
+
+FetchOptions
+{
+# stylesheets = no
+
+ images      = yes
+
+ frames      = yes
+
+# scripts     = no
+
+# objects     = no
+}
+
+
+#
+# HTML modifications that are made to the spooled pages.
+#
+# Options that control how the HTML that is provided from the cache is modified.
+#
+# Header : ModifyHTML
+# Options: enable-modify-html = yes | no
+#               Enable the modifications in this section (has a speed penalty)
+#               (default=yes).
+#          add-cache-info = yes | no
+#               At the bottom of all of the spooled pages the date that the page
+#               was cached and some buttons are to be added (default=no).
+#          anchor-cached-begin = <HTML code>
+#               Anchors (links) that are cached are to have the specified HTML
+#               inserted at the beginning (default="").
+#          anchor-not-cached-begin = <HTML code>
+#               Anchors (links) that are not cached are to have the specified
+#               HTML inserted at the beginning (default="").
+#          anchor-cached-end = <HTML code>
+#               Anchors (links) that are cached are to have the specified HTML
+#               inserted at the end (default="").
+#          anchor-not-cached-end = <HTML code>
+#               Anchors (links) that are not cached are to have the specified
+#               HTML inserted at the end (default="").
+#
+# Notes 1: These options all rely on the HTML being syntactically correct, if it
+#          is not then the result is undefined.
+#
+
+ModifyHTML
+{
+# enable-modify-html = yes
+
+# add-cache-info = no
+
+#anchor-cached-begin     = <font color="#00ff00">
+#anchor-not-cached-begin = <font color="#ff0000">
+#anchor-cached-end       = </font>
+#anchor-not-cached-end   = </font>
+}
+
+
+#
+# WWWOFFLE server host name specification.
+#
+# The possible names that the server that wwwoffles is on may be known by.
+#
+# Header : LocalHost
+# Options: <host>
+#               One of the possible hostnames or IP addresses.
+#
+# Notes 1: The host names must match exactly, no wildcard matches.
+#       2: All entries in here are also used the same way as those in the
+#          LocalNet and AllowedConnectHosts sections.
+#       3: The first named host is used as the server name for several features
+#          so must be a name that will work from any client host on the network.
+#       4: None of the entries here or in LocalNet are fetched via a proxy.
+#
+
+LocalHost
+{
+ localhost
+ 127.0.0.1
+#wwwoffle-ipk# for possible remote access:
+ $LOCALIP
+
+#### Example ####
+# The server is on www.foo.com, with IP address 11.22.33.44.
+# www.foo.com
+# 11.22.33.44
+}
+
+
+#
+# Local Network non-cached host name specification
+#
+# The names of hosts that are not cached because they are on the local network.
+#
+# Header : LocalNet
+# Options: <host>
+#               A hostname or IP address.
+#
+# Notes 1: The host name matching uses wildcards (see the WILDCARD section).
+#       2: All entries here are assumed to be reachable even when offline.
+#       3: All entries in the LocalHost section are used as if they were here.
+#       4: None of the entries here or in LocalHost are fetched via a proxy.
+#
+
+LocalNet
+{
+
+#### Example ####
+# The local domain is foo.com so don't cache any hosts in it.
+# *.foo.com
+}
+
+
+#
+# Allowed client host name specification
+#
+# The names of client hosts that are allowed to connect to the server.
+#
+# Header : AllowedConnectHosts
+# Options: <host>
+#               A hostname or IP address.
+#
+# Notes 1: The host name matching uses wildcards (see the WILDCARD section).
+#       2: All entries in the LocalHost section are used as if they were here.
+#
+
+AllowedConnectHosts
+{
+
+#### Example ####
+# Only allow connections from hosts in the foo.com domain.
+# *.foo.com
+#wwwoffle-ipk# for possible remote access:
+$DESKIP
+}
+
+
+#
+# Allowed client username specification
+#
+# A list of the users that are allowed to connect to the server.
+#
+# Header : AllowedConnectUsers
+# Options: <username>:<password>
+#               The username and password of the users that are allowed to
+#               connect to the server.
+#
+# Notes 1: The username and password are both stored in plaintext format.
+#       2: This requires the use of browsers that handle the HTTP/1.1 standard.
+#
+
+AllowedConnectUsers
+{
+
+#### Example ####
+# Only allow connections from this one user.
+# andrew:password
+}
+
+
+#
+# A list of ways of recognising a URL not to cache.
+#
+# Header : DontCache
+# Options: URL-SPECIFICATION
+#               Do not cache any URLs that match this.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION.
+#       2: The URL will still be cached if fetched non-interactively.
+#
+
+DontCache
+{
+# wwwoffle-ipk DisableCache Option:
+#wwwoffle-ipk# *://*/  
+
+#### Example ####
+# Don't cache any hosts in the barfoo.com domain.
+# *://*.barfoo.com/
+# Don't cache any gzipped or tar files.
+# *://*/*.gz
+# *://*/*.tar
+# Don't cache any files from /volatile in the foo.com domain.
+# *://*.foo.com/volatile/*
+}
+
+
+#
+# A list of ways of recognising a URL not to get.
+#
+# Header : DontGet
+# Options: URL-SPECIFICATION
+#               Do not get any URLs that match this.
+#          replacement = <URL>
+#               Replace any URLs that match with this URL instead of the
+#               standard error message (default=none).
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION.
+#       2: The URL /local/images/trans-1x1.gif is a suggested replacement
+#          (a 1x1 pixel transparent gif).
+#
+
+DontGet
+{
+
+replacement = /local/images/trans-1x1.gif
+
+#### Example ####
+# Don't get from any hosts in the barfoo.com domain.
+# *://*.barfoo.com/
+# Don't get any gzipped or tar files.
+# *://*/*.gz
+# *://*/*.tar
+# Don't get any files from /adverts in the foo.com domain.
+# *://*.foo.com/adverts*
+}
+
+
+#
+# A list of ways of recognising a URL not to get when fetching recursively.
+#
+# Header : DontGetRecursive
+# Options: URL-SPECIFICATION
+#               Do not get any URLs that match this.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION.
+#
+
+DontGetRecursive
+{
+
+#### Example ####
+# Dont get any gzipped or tar files when getting recursively.
+# *://*/*.gz
+# *://*/*.tar
+}
+
+
+#
+# A list of URLs that cannot be requested by users when offline.
+#
+# Header : DontRequestOffline
+# Options: URL-SPECIFICATION
+#               Do not request any URLs that match this.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION.
+#
+
+DontRequestOffline
+{
+
+#### Example ####
+# Dont request any URLs at all when offline.
+# *://*/
+}
+
+
+#
+# Censorship of information sent to the server
+#
+# A list of HTTP header lines that are to be removed from the requests sent.
+# Or fake headers that are to be used instead.
+#
+# Header : CensorHeader
+# Options: <header> = <string> | none |
+#               A header field name, (e.g. From, Cookie, User-Agent) and the
+#               string to replace the string sent by the browser.
+#          referer-self = yes | no
+#               Sets the Referer header to the same as the URL (default = no).
+#          referer-self-dir = yes | no
+#               Sets the Referer header to the URL directory name (default = no).
+#
+# Notes 1: The header is case sensitive, and does not have a ':' at the end.
+#       2: The value of none or no string can be used to not send the header.
+#       3: This only replaces headers it finds, it does not add any new ones.
+#       4: The referer-self-dir option takes precedence over referer-self.
+#
+
+CensorHeader
+{
+
+### Example ###
+# Don't send the username.
+# From =
+# Don't send Cookies back
+# Cookie =
+# Lie about the Browser type.
+# User-Agent = WWWOFFLE/2.4
+}
+
+
+#
+# Options to use when fetching files using ftp.
+#
+# Header : FTPOptions
+# Options: anon-username = <string>
+#               The username to use for anonymous ftp (default=anonymous).
+#          anon-password = <string>
+#               The password to use for anonymous ftp (default=<user>@<host>).
+#          auth-hostname = <host[:port]>
+#               A host to use a different username and password.
+#          auth-username = <string>
+#               The username to use on the above host.
+#          auth-password = <string>
+#               The password to use on the above host.
+#
+# Notes 1: The anon-password should be set to a sensible value especially if you
+#          are behind a firewall.
+#       2: The auth-hostname, auth-username and auth-password options must come
+#          together as a triplet.
+#       3: The auth-hostname must be exact, it is not used as a WILDCARD match.
+#
+
+FTPOptions
+{
+# anon-username = anonymous
+#anon-password = 
+}
+
+
+#
+# MIME Types to use when fetching files not using HTTP.
+#
+# Header : MIMETypes
+# Options: default     = <mime-type>/<subtype>
+#               The default MIME type (default=text/plain).
+#          .<file-ext> = <mime-type>/<subtype>
+#               The MIME type to associate with a file extension.
+#
+# Notes 1: You must include the '.' in the file extension.
+#       2: If more than one of the extensions match then the longest is used.
+#
+
+MIMETypes
+{
+ default  = text/plain
+
+ .pdf     = application/pdf
+ .eps     = application/postscript
+ .ps      = application/postscript
+ .rtf     = application/rtf
+ .dvi     = application/x-dvi
+ .latex   = application/x-latex
+ .tcl     = application/x-tcl
+ .tex     = application/x-tex
+ .texinfo = application/x-texinfo
+ .texi    = application/x-texinfo
+ .tr      = application/x-troff
+ .man     = application/x-troff-man
+ .me      = application/x-troff-me
+ .ms      = application/x-troff-ms
+ .zip     = application/zip
+ .cpio    = application/x-cpio
+ .tar     = application/x-tar
+ .Z       = application/x-compress
+ .gz      = application/x-gzip
+ .js      = application/x-javascript
+ .au      = audio/basic
+ .snd     = audio/basic
+ .wav     = audio/x-wav
+ .gif     = image/gif
+ .jpeg    = image/jpeg
+ .jpg     = image/jpeg
+ .tif     = image/tiff
+ .tiff    = image/tiff
+ .ras     = image/x-cmu-raster
+ .pnm     = image/x-portable-anymap
+ .pbm     = image/x-portable-bitmap
+ .pgm     = image/x-portable-graymap
+ .ppm     = image/x-portable-pixmap
+ .rgb     = image/x-rgb
+ .xbm     = image/x-xbitmap
+ .xpm     = image/x-xpixmap
+ .xwd     = image/x-xwindowdump
+ .html    = text/html
+ .htm     = text/html
+ .txt     = text/plain
+ .mpeg    = video/mpeg
+ .mpg     = video/mpeg
+ .mov     = video/quicktime
+ .avi     = video/x-msvideo
+ .pac     = application/x-ns-proxy-autoconfig
+ .class   = application/java
+ .wrl     = model/vrml
+ .vr      = model/vrml
+ .css     = text/css
+ .xml     = application/xml
+ .dtd     = application/xml
+ .png	= image/png
+}
+
+
+#
+# Remote proxy configuration.
+#
+# The name and port number of machines to use as proxies.
+#
+# Header : Proxy
+# Options: default            = <hostname[:integer]> | none |
+#               The hostname (+ optionally a port number separated by a colon)
+#               to use as the default proxy.
+#          URL-SPECIFICATION  = <hostname[:integer]> | none |
+#               The hostname (+ optionally a port number separated by a colon)
+#               to use as the proxy for URLs that match URL-SPECIFICATION.
+#          auth-hostname = <host[:port]>
+#               A proxy server that uses proxy authentication.
+#          auth-username = <string>
+#               The username to use on the above host.
+#          auth-password = <string>
+#               The password to use on the above host.
+#          ssl           = <host[:port]>
+#               A proxy server that should be used for Secure Socket Layer (SSL)
+#               connections e.g. https.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION.
+#       2: A hostname that matches more than one entry here uses the proxy of
+#          the longest matching one (protocol is included in assessing length).
+#       3: Leave the hostname empty or use 'none' for no proxy.
+#       4: None of the hosts in LocalNet/LocalHost will be fetched via a proxy.
+#       5: The auth-hostname, auth-username and auth-password options must come
+#          together as a triplet.
+#       6: The auth-hostname must be exact, it is not used as a WILDCARD match.
+#
+
+Proxy
+{
+ #wwwoffle-ipk#http://*/ = none
+#wwwoffle-ipk# Use desired proxy:
+http://*/ = $PROXY
+
+#### Example ####
+# Use www.foo.com as a default http proxy server on port 8080
+# Except for the foo.com domain which has no proxy.
+# http://*    = www.foo.com:8080
+# *://foo.com = none
+}
+
+
+#
+# A list of ways of recognising a URL not to display in the indexes.
+#
+# Header : DontIndex
+# Options: outgoing = URL-SPECIFICATION
+#               Do not index any URLs that match this in the outgoing index.
+#          latest   = URL-SPECIFICATION
+#               Do not index any URLs that match this in the
+#               lasttime/prevtime/latest indexes.
+#          monitor  = URL-SPECIFICATION
+#               Do not index any URLs that match this in the monitor index.
+#          host     = URL-SPECIFICATION
+#               Do not index any URLs that match this in the host indexes.
+#          URL-SPECIFICATION
+#               Do not index any URLs that match this in any of the indexes.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION
+#
+
+DontIndex
+{
+
+#### Example ####
+# Don't index any hosts in the barfoo.com domain.
+# *://*.barfoo.com/
+# Don't index any gif or jpg files in the lasttime index.
+latest = *://*/*.gif
+latest = *://*/*.jpg
+#wwwoffle-ipk# Don't index png files as well:
+latest = *://*/*.png
+
+}
+
+
+#
+# Aliases specification
+#
+# A list of aliases that are used to replace the server name and path with
+# another server name and path.  Also for servers known by two names.
+#
+# Header : Alias
+# Options: URL-SPECIFICATION = URL-SPECIFICATION
+#               Any requests for the first URL-SPECIFICATION are replaced by the
+#               second URL-SPECIFICATION.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION
+#       2: Symbolic links in the spool directory also work, but they are only
+#          checked when wwwoffled is started or 'wwwoffle -config' is run.
+#       3: The host names must match exactly, no WILDCARDs.
+#
+
+Alias
+{
+
+#### Example ####
+# The http server www.bar.com is mirrored locally at www.bar-mirror.foo.com
+# http://www.bar.com/ = http://www.bar-mirror.foo.com/
+# The wwwoffle homepage can be aliased
+# http://wwwoffle/ = http://www.gedanken.demon.co.uk/wwwoffle/
+}
+
+
+#
+# Purge method and maximum ages specification.
+#
+# The method to determine which pages to purge, the default age, the host
+# specific maximum age of the pages in days, and the maximum cache size.
+#
+# Header : Purge
+# Options: use-mtime          = yes | no
+#               The decision of which pages to purge can be made on last access
+#               time (atime) or last modification time (mtime) (default=no).
+#          max-size           = <integer>
+#               The maximum allowed size of the cache in MB (default=0).
+#          use-url            = yes | no
+#               If true then use the URL to decide on the purge age, otherwise
+#               use the protocol and host only (default=no).
+#          del-dontget        = yes | no
+#               If true then delete the files from hosts that are in the DontGet
+#               section (default=no).
+#          del-dontcache      = yes | no
+#               If true then delete the files from hosts that are in the
+#               DontCache section (default=no).
+#          default            = <integer>
+#               The default maximum age for pages on hosts (default=14).
+#          URL-SPECIFICATION  = <integer>
+#               The maximum age for pages on hosts that match the
+#               URL-SPECIFICATION.
+#
+# Notes 1: See the bottom of this file for the description of URL-SPECIFICATION
+#       2: A hostname that matches more than one entry here uses the age of the
+#          longest matching one (the protocol is counted in assessing length).
+#       3: A zero age means always delete on purge, negative means never purge.
+#       4: A maximum cache size of 0 means there is no limit to the size.
+#       5: When there is a non-zero maximum cache size it is measured excluding
+#          all hosts with a negative maximum age (never purged hosts).
+#       6: The URL-SPECIFICATION matches only the protocol and host unless
+#          use-url is set to true.
+#
+
+Purge
+{
+#wwwoffle-ipk# only mtime avail on vfat?
+# use-mtime     = no
+
+ #wwwoffle-ipk#max-size      = 0
+#wwwoffle-ipk# Max size used for cache in Meg:
+# wwwoffle-ipk CacheSize Option:
+max-size      = 5   
+
+# use-url       = no
+
+# del-dontget   = no
+# del-dontcache = no
+
+ default = 28
+
+#### Example ####
+# Expire hosts in the domain foo.com at 1 week except bar.foo.com at 2 weeks.
+# *://foo.com/ = 7
+# *://bar.foo.com/ = 14
+# Never keep anything in the domain bar.com except foo.bar.com is always kept.
+# *://bar.com/ = 0
+# *://foo.bar.com/ = -1
+#
+# Keep ftp files for 7 days and http for 14.
+# ftp://* = 7
+# http://* = 14
+#
+# Purge files to keep the cache below 10 MB
+# max-size = 10
+}
+
+
+#
+# WILDCARD
+#
+# A WILDCARD match is one that uses the '*' character to represent any group of
+# characters.
+#
+# This is basically the same as the command line file matching expressions in
+# DOS or the UNIX shell, except that the '*' can match the '/' character.  A
+# maximum of 2 '*' characters can be used in any WILDCARD.
+#
+# For example
+#
+# *.gif      matches  foo.gif and bar.gif
+# *.foo.com  matches  www.foo.com and ftp.foo.com
+# /foo/*     matches  /foo/bar.html and /foo/bar/foobar.html
+#
+
+
+#
+# URL-SPECIFICATION
+#
+# When specifying a host and protocol and pathname in many of the sections a
+# URL-SPECIFICATION can be used, this is a way of recognising a URL.
+#
+# For the purposes of this explanation a URL is considered to be made up of four
+# parts.
+#
+# proto           The protocol that is used (e.g. 'http', 'ftp')
+# host            The server hostname (e.g. 'www.gedanken.demon.co.uk').
+# port            The port number on the host (e.g. default of 80 for HTTP).
+# path            The pathname on the host (e.g. '/bar.html') or a directory
+#                 name (e.g. '/foo/').
+#
+# For example the wwwoffle homepage: http://www.gedanken.demon.co.uk/wwwoffle/
+# The protocol is 'http', the host is 'www.gedanken.demon.co.uk', the port is
+# the default (in this case 80), and the pathname is '/wwwoffle/'.
+#
+# In general this is written as <proto>://<host>[:<port>]/<path>
+#
+# Where [] indicates an optional feature, and <> indicate a user supplied name
+# or number.
+#
+# Some common URL-SPECIFICATION options are the following:
+#
+# *://*                   Any protocol, Any host, Any port, Any path
+#                         (This is that same as saying 'default').
+#
+# *://*/<path>            Any protocol, Any host, Any port, Named path
+#
+# *://*/*.<ext>           Any protocol, Any host, Any port, Named path.
+#
+# *://<host>              Any protocol, Named host, Any port, Any path
+#
+# <proto>://              Named protocol, Any host, Any port, Any path
+#
+# <proto>://<host>        Named protocol, Named host, Any port, Any path
+#
+# <proto>://<host>:       Named protocol, Named host, Default port, Any path
+#
+# <proto>://<host>:<port> Named protocol, Named host, Named port, Any path
+#
+# The matching of the host and the path use the WILDCARD matching that is
+# described above.
+#
+
+EOF
+#
+#
+#####
+# Ipkg control file
+#
+cp DEBIAN/CONTROL/control $PKG/CONTROL
+#  change: Section: to conform with Ben Meyer (of Sharp)'s wishes
+# | \
+# Suggests: delete for now.  Maybe confusing if unaware of conversion from debs.
+# | \
+# some contain Filename:?, which is bad according to Ben Meyer?
+# | \
+# Installed-Size: is wrong, recalculate with du.
+SIZE=`du -ks $PKG | cut -f 1`
+#  reduced to 47% of original!?  Good, but still too large. 
+#  Not even that.  should find how Debian comes up with it's installed size?
+#
+# maybe should change package name to reflect LNG?
+#
+cat DEBIAN/CONTROL/control | \
+    sed -e "s/^Section:.*/Section: $NEWSECTION/g" | \
+    grep -v "^Suggests:" | \
+    grep -v "^Filename:" | \
+    sed -e "s/^Installed-Size:.*/Installed-Size: $SIZE/g" \
+    > $PKG/CONTROL/control
+#
+echo " Converted" from .deb file by $USER on `date +%D` with script ver. $SVER >> $PKG/CONTROL/control
+#
+# should do some more Control file changes:
+#vi $WORKDIR/Deb2ipk/$PKG/CONTROL/control
+#
+# some contain Filename:?, which is bad?
+#
+# Depends: 
+#   libc6 should be erased, since  libc6 which is in the base (qpe-base?), and not in a package.
+#   debconf should be erased, because we're configuring it now:
+#    should use debconf itself here, but safe? worry of messing up system?
+#    changes to config file done by Debian via debconf and postinst
+#      check config script to see what configuration is needed.
+#       select_html_lang: medium priority, done here based on LNG config.
+#            but for non-en do we should fill any untranslated pgs with en, as done in deb's postinst
+#       string_port_number: low priority, leave default config unchanged. 
+#       string_parent_proxy: medium priority, ?
+#            should question interactively, cause applicable question.
+#              changed by changing config file.
+#              common options: none or Desktop proxy.
+#       text_new_location: low priority, not needed for fresh installs.
+#       
+#   fileutils dependency need to be removed via changed scripts, or ipk it.
+#   maybe should have Additional dependencies:
+#    depends or suggests either terminal or 
+#    hypothetical wwwoffled-opie-sh or wwwofffle-QtopiaGui
+#   
+###
+#
+# Start wwwoffle after installation:
+echo "
+/etc/rc.d/init.d/wwwoffle start
+" > $WORKDIR/Deb2ipk/$PKG/CONTROL/postinst
+chmod a+x $WORKDIR/Deb2ipk/$PKG/CONTROL/postinst
+#
+# Stop wwwoffle before de-installation:
+echo "
+# should have this, but not yet: /etc/rc.d/init.d/wwwoffle stop
+wwwoffle -kill
+" > $WORKDIR/Deb2ipk/$PKG/CONTROL/prerm
+chmod a+x $WORKDIR/Deb2ipk/$PKG/CONTROL/prerm
+#
+#####
+# Other Zaurus specific:
+#
+cd $WORKDIR/Deb2ipk/
+#
+$IPKGBUILD $PKG
+### Results on Zaurus:
+#BusyBox v0.52 (2001.08.30-07:09+0000) multi-call binary
+# 
+#Usage: find [PATH...] [EXPRESSION]
+# 
+#tar: Creation of compressed not internally
+#support by tar, pipe to busybox gunzip     
+###so ipkg-build does not support Z's default Busybox!
+### Results on Desktop as non-root:
+#*** Warning: The following files have a UID greater than 99.
+#You probably want to chown these to a system user: 
+### So should do as root under a fakeroot environment?  
+######
+mv $PKG\_arm.ipk $WORKDIR
+# Make a zip so can bundle minimal documentation.
+#  should have documentation in separate file, either independent or w/ file list
+# Copyright file:
+echo "
+This is a repackaged ipk from a Debian GNU/Linux package.
+This ipk was put together by $USER,
+with a script called ipk-frm-deb (original, isn't it? ), version $SVER.
+--  
+" > $WORKDIR/copyright
+cat DEBIAN/usr/share/doc/$NAME/copyright >> $WORKDIR/copyright
+# README file:
+echo "
+This package is a subset of a Debian GNU/Linux package.  
+See its .deb version ( $PKG.deb ) for more complete documentation. 
+This ipk was put together by $USER,
+with a script called ipk-frm-deb (original, isn't it? ), version $SVER.
+-- 
+To start wwwoffle after installation run:
+/etc/rc.d/init.d/wwwoffle start
+This will be run every boot time.
+You need to reconfigure Qtopia to use localhost:8080 as it's proxy
+See the example file 
+/home/root/Applications/Network/modules/Proxies.conf.wwwoffle
+This package includes a script that can configure the proxy on boot, 
+but it would erase any current settings.  Also, it needs to be run every 
+time Qtopia restarts.  If you wish to use this, edit 
+/etc/rc.d/init.d/wwwoffle
+
+After installing, check these pages to see if wwwoffle is operational:
+http://localhost:8080/#indexes : proves wwwoffle is up and running
+Check some remote page to see if the page becomes requested.
+Then, when connected to the internet / a desktop proxy, 
+set wwwoffle online at the control page:
+http://localhost:8080/control/
+Then check a remote page to see if wwwoffle can see the internet.
+Finally, see your local web pages being served at:
+http://localhost:8080/local/
+
+The control page allows setting online / offline, and fetching requested 
+and monitored pages.  It also allows editing the config file.
+To shutdown WWWOFFLE, (needs to be done before ejecting flash card):
+wwwoffle -kill
+" > $WORKDIR/README
+cd $WORKDIR
+zip -9 $PKG.zip $PKG\_arm.ipk copyright README 
+rm copyright README
+rm -rf $WORKDIR/Deb2ipk 
+echo Created:
+ls $WORKDIR/$PKG\_arm.ipk $WORKDIR/$PKG.zip

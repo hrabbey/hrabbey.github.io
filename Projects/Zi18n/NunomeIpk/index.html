@@ -1,0 +1,46 @@
+
+<HTML>
+
+<HEAD>
+<TITLE>Nunome Ipk</TITLE>
+</HEAD>
+<BODY>
+<H1>Nunome ipk</H1>
+<A HREF="./nunome_1.0.0_arm.ipk">nunome_1.0.0_arm.ipk</a>
+<hr>
+<PRE>
+# Created ipk depends on qpf-cyberbit-120-50-t10
+# Requires 3.9meg on PDA, plus the 3.5meg for above cyberbit font.
+Provides: qpe-i18n-ja
+Description: Nunome.  Japanese input method from Axe.  
+<IMG SRC="nunome_scrn.png" WIDTH="240" HEIGHT="320" ALT="Nunome input method in English">
+ More info available from <A HREF="http://www.sikigami.com/nunome-Qtopia-1.0/">Sikigami's Nunome page</a>.
+</pre>
+<hr>
+<H1>Ipk Creation</h1>
+Created from nunome-Qtopia-zaurus.tar.gz (available by filling out <A HREF="http://www.sikigami.com/cgi-bin/sikigami.com/anke-nnmqt1.0.cgi">questionaire in Japanese</a> at Sikigami).  
+I've saved what I did in a script called <A HREF="./ipk-frm-nunome-Tarball.sh">
+ipk-frm-nunome-Tarball.sh</a>
+<P>
+If you are short on space, the install script included in the tarball from Sikigami may be a better choice.  You have to recreate the library links yourself however:
+<PRE>
+FLASH=cf_OR_card
+cd /opt/QtPalmtop/plugins/inputmethods
+ln -s /mnt/$FLASH/opt/QtPalmtop/plugins/inputmethods/libqNunome.so.1.0.0 libqNunome.so
+ln -s /mnt/$FLASH/opt/QtPalmtop/plugins/inputmethods/libqNunome.so.1.0.0 libqNunome.so.1
+ln -s /mnt/$FLASH/opt/QtPalmtop/plugins/inputmethods/libqNunome.so.1.0.0 libqNunome.so.1.0
+ln -s /mnt/$FLASH/opt/QtPalmtop/plugins/inputmethods/libqNunome.so.1.0.0 libqNunome.so.1.0.0
+</pre>
+Also, make sure you only keep one copy of the cyberbit font.  Sikigami puts it in:
+<PRE>
+/usr/lib/fonts/cyberbit_120_50_t10.qpf
+</pre>
+instead of:
+<PRE>
+/opt/QtPalmtop/lib/fonts/
+</pre>
+</p>
+<hr>
+Enjoy!
+</BODY>
+</HTML>

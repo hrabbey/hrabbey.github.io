@@ -1,0 +1,16 @@
+
+Well, it was much worse to do than I thought.
+QtLinguist doesn't seem to support XIM or any other Japanese input method.
+It also doesn't share hints across .ts files.  Can one do this with a phrase book.  If so, how?
+Also, UTF8 editiors aren't all that common in Linux, I've found.
+I ended up using Mozilla editor to edit the text files.
+I then double checked them in Linguist, confirming ones that I am confident of.
+Also, Mozilla terminal supports UTF-8, allowing me to do:
+grep --after-context=2 COMMON_WORD *.ts | grep translation | grep -v unfinished
+
+BAD TT.
+
+Thanks to the Jim Breen and Botond Botyanzki (for the gjiten Japanese dictionary) and the GNOME translation team (whose translations I stole from).
+
+<hr>
+I've stopped all translation work I was doing with the release announcement of the SL-A300.  Since it obviously already has everything translated, there's no point in my duplicating work.  Now if they would only release it to the public...

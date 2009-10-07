@@ -1,0 +1,34 @@
+<HTML>
+
+<HEAD>
+<TITLE>Japanese E-book Reading on the Zaurus</TITLE>
+</HEAD>
+<BODY>
+<H1>Japanese E-book Reading on the Zaurus</h1>
+<P>
+Here are some tools available I find useful for reading Japanese on the Zaurus.
+</p>
+<DL>    
+<DT><A HREF="http://www.timwentford.uklinux.net/">QtReader</a><DD>will soon support Unicode in the main version.  The beta version I have handles Japanese quite well.
+<DT><A HREF="http://www.geocities.com/palmradic/zaurus/kani.html">Kanji Nirvana</a><DD>for non-native speakers, an excellent took to find meaning of individual kanji.
+<DT>unifont / <A HREF="http://qpe.sourceforge.net/packages/ipaq/qpf-cyberbit-120-50-t10_2.3.0-3_arm.ipk">cyberbit</a> fonts<DD>A Unicode font including Japanese characters is needed to view Japanese.  unifont is available on Kanji Nirvana's page.  cyberbit is available via Qtopia on Sourceforge.
+<DT><A HREF="../Deb2Ipks/tcs_1-6.zip">tcs</a><DD>Character set translator from Debian Arm distribution, repackaged into ipk form.  This program converts between Unicode, jis, and euc Japanese text encodings.  BEWARE: I strongly suspect this arm version has trouble with Shift-Jis encodings.  Try using tcs on an x86 system instead.  Actually, iconv would probably be better.  It still needs re-packaging for the Zaurus.  It's comes standard on Linux desktops though, I believe.
+</DL>
+
+<P>
+Currently the following aren't set up for running on the Zaurus.  Look for them on your local Linux / Unix desktop.
+</p>
+<DL>
+<DT>file2<DD>identifies text encoding by looking at file.  Perhaps also known as file-kanji
+<DT>makedoc<DD>makes and unmakes Palm pdb files.  Japanese Palm pdb files have to be converted to sjis text with this or a similar utility, and then converted to UTF text.
+<DT>kakasi<DD>adds furigana (phonetic reading) to kanji.  Also can do some encoding conversions.  Unfortunately, doesn't work with Unicode encoded files.
+</DL>
+
+<HR>
+<P>
+The Zaurus still isn't as quite as good as JReader (with Jdic) was on my old HP200lx.  The main thing still needed for equivalence is full word lookup (via ZBEDic?, PJisho, or another port of <A HREF="http://gjiten.sourceforge.net/">gJiTen</a>?) by selecting / copying words from the reader.  While QtReader now allows copying, ZBEDict's Japanese dictionary isn't the best by far, and I've yet to find <A HREF='http://www.zauruszone.farplanet.net/wiki/index.php?PJisho'>PJisho</a>.<!-- does Gutenbrowser support highlighting and Unicode??? -->
+</p>
+
+</BODY>
+</HTML>
+

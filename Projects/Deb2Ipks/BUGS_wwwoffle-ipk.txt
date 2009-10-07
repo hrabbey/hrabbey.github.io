@@ -1,0 +1,134 @@
+
+  Bugs believed to be fixed, but need confirmation:
+
+v0.02a:
+re-did so can install anywhere with one ipk
+
+believe only my system jams upon Qtopia restart with flash mounted.
+
+
+  Bugs / known problems / desired feature enhancements:
+
+ added in script version 0.02a
+
+if installed to flash, html files not hidded from Documents tab.  
+Should I hide them via previous method?  Will do after 2 requests
+recieved.
+
+ Based on script version 0.01
+
+pick better directory to put cache in: .hidden/?, a standard opt or
+Qtopia?
+
+My lack of knowledge of a correct way to automatically configure
+proxy use for all of Qtopia, Opera, Konqueror, and SL-A300's
+Sikigami's web browser.  I've got an ugly hack that works for
+Opera.  I'd like to understand what changes Proxies.conf on Qtopia
+start, and how should I store desired proxy info? With a Common
+section it seems to fail to work.
+
+Japanese readers: what's the name of the web browser on the
+SL-A300?
+
+Can the ipk be distributed without the copyright info?
+
+Add to init.d script stop & restart options.  Changes needed from
+deb's init.d: progs don't exist: install; start-stop-daemon;
+isdnctl (but not needed);
+
+A better default web page; smaller and more Zaurus / Qtopia /
+Familiar specific
+
+add wwwoffle bookmarks to Opera & etc. / standard page: Cache index
+section of Welcome page: http://localhost:8080/index.html#indexes
+control pg: http://localhost:8080/control/ & local pages?
+
+?preload w/ Zaurus faq's (esp. Bill's)& info pgs, and monitoring of
+?killefiz.
+
+May want other to create ipks for other language versions.  If so,
+would be nice to have README and copyright in the appropriate
+languages.
+
+maybe create /opt/QtPalmtop/etc/init.d/wwwoffle. Nope, doesn't seem
+to do anything.
+
+Debug deb to ipkg conversion script: many other issues in it
+identified by keyword "should"
+
+edit conf file so best for average user:
+ +post install : remove comments for space?
+ +Add option to ignore requests for images / objects, etc. 
+ +From z-gen: want opera's ident to be: "Mozilla/4.0 (compatible;
+ MSIE 5.0; Zaurus PDA powered by Linux 2.4.6; 240x320) Opera 5.0
+ [en]" ?
+
+more translations of upstream wwwoffle web pages
+
+clean up of deb to ipkg script so easier to maintain and understand
+
+generalize deb to ipkg script so usable for other deb's.
+
+merge deb to ipk script into alien
+
+wwwoffle much too big (600k) according to iPAQ list on
+handhelds.org.  Strip its binary size down?  Ways to reduce memory
+usage and disk usage?
+
+Improve performance.
+
+#####
+  Desired Added Scripts: 
+
+-Add script to download all / most from last time page on Server
+(desktop's wwwoffle): wget -proxy... -spider deskip:8080/...
+lasttime ...
+
+-online / offline mode automatically via scripts in ??? directory
+run-parts'd upon sync.
+
+
+#####
+  A nice Qtopia gui tool might have these features:
+
+-most basic just a Qt frontend to wwwoffle / wget: doable w/
+opie-sh.
+-online / offline / fetch
+-adjust  monitored pages
+-purge
+-report size of cache and % used, and also relative to storage space
+avail. & used, with graphics.
+-purge selected file types (i.e. *.jpg, *.gif)
+-adjust size of cache immediately, and adjust for future use.
+-adjust size to k used / % of disk size / % of space free / k left.
+-Adjust config file & reload:
+  +adjust size of cache to use
+  +Add option to ignore requests for images / objects, etc. 
+  +move cache from RAM <=> CF <=> SD <=> custom
+-optional task bar applet to go online & fetch / offline
+-auto-detect flash removal & insert, and stop & restart wwwoffled
+
+
+#####
+  I'd like to see a comparison review Web page with a 
+comparison table of features: 
+item, installed size, memory size, ease of setup, ease of use, ..., features
+wwwoffle, 
+sitescooper (ipk'd for use with <A HREF="http://thommy.myip.org/opie-sh-apps/sitescooper-tips.html">opie-sh browsing</a>), smaller
+zepo ( http://www.alterna.tv/zepo/ ), 
+wget, built-in
+Avant-Go
+save as html on desktop: xfer via samba / ftp / etc.,
+Other?
+
+Browser options:
+Opera
+Konqueror
+opie-sh
+QtReader
+links
+etc.
+
+
+Tip for wget / "save as html": make a bookmark for the directory holding the saved html files in the web browser.  Then each saved html folder can be displayed by selecting instead of typing.
+

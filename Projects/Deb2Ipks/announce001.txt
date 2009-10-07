@@ -1,0 +1,55 @@
+In announcement :
+To: z-gen, familiar:
+Subject ANN: WWWOffLe ipk released from .deb
+
+Hello all,
+
+As I promised a while back on IRC, I have made an ipk out of Debian
+arm's WWWOffLe. It allows WWW browsing while OFF LinE. It should be
+available at: 
+http://hrabbey.webhop.net/Projects/Deb2Ipks/
+
+Use wwwoffle_2.5c-10-cf.zip to put the cache on a CF card, and
+wwwoffle_2.5c-10-card.zip for a SD card.  Fix my packaging script
+to put the cache on internal memory.  It seems to have hiccups upon
+restarting qpe after installation, but rebooting seems to clear
+everything up.
+
+Now for the details and requests for help.
+
+  Features:
+-store browsed pages for viewing on the road.
+-monitor pages like news or cartoon sites to be automatically downloaded
+-select pages on road to be downloaded later.
+-built in simple web server
+-can be configured to block advertisements.
+-For more info, see WWWOFFLE home-page at:
+http://www.gedanken.demon.co.uk/wwwoffle/
+
+  Details of zip / ipk
+
+It takes around 496k internal disk space, <1.4meg on flash, and
+1948k RAM|memory.  I've removed some of the documentation, and the
+ht:Dig support.  I also removed the ppp and init.d scripts, and
+made an overly simple init.d script.  I also made a (buggy, bad)
+script to configure Qtopia's proxy.  I added a default local web
+page.  I also added a README to the zip file that describes
+configuration.
+
+The script / description of what I did are in the file
+ipk-frm-deb_wwwoffle.  With it it should be fairly simple to
+recreate the ipk.  It requires editing before trying it though.
+
+Please try it out, and let me know of any problems.  Also, if you
+can help fix (the many) problems, or with adding features or a Qt
+gui, I'd appreciate it.  I've listed below everything I can think
+of that could use fixing.  In particular, I'd like to hear from
+Konqueror users, sitescooper & Advantgo users, and people familiar
+with Familiar's setup.
+
+Enjoy,
+Howard Abbey
+...
+#####
+...
+

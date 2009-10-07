@@ -1,0 +1,31 @@
+
+ changeSwap.sh 
+  A fairly simple script to quickly adjust swap space 
+ on the SL-5000 series Zaurus with out worry of typos.
+ Swap space files allow trading internal disk storage 
+ space for memory.
+
+ This script gains Qt functionality when 
+     opie-sh is installed.
+ It is available at: http://www.rit.edu/~tfs1812
+
+ The default Qt action is to toggle between mostly 
+      swap space and free internal storage space.
+ Usage information is available with the -h option.
+ Configuration is currently done by manually 
+       editing the script file.
+ The default configuration should be acceptable.
+ 
+ Known bugs / ash programming questions 
+      are listed in the script file.  None are serious.
+
+ For current version and info, see:
+  http://members.surfbest.net/hrabbey@surfbest.net/Projects/ChangeSwap/
+ or perhaps:  http://hrabbey.webhop.net/Projects/ChangeSwap/
+ 
+ Copyrighted under the GPL to Howard Abbey <hrabbey@surfbest.net>
+
+ Enjoy!
+   Howard Abbey
+   5-15-2002
+

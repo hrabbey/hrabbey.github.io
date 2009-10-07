@@ -1,0 +1,81 @@
+                               Howard R. Abbey
+
+                             Essex Jct, VT 05402
+                             Tel.: (802)769-6912
+                         E-mail: habbey@us.ibm.com
+
+----------------------------------------------------------------------------
+
+Summary:
+
+        + Characterization, testing, and firmware programming experience
+          combined with excellent educational record.
+        + Well versed in Japanese practices and comfortable working in a
+          multi-national environment.
+        + Strong overall hard disk drive knowledge, with in-depth
+          understanding of microcode and read channel.
+
+Experience:
+
+     Integration and Characterization Engineer (4/00 to present)
+     Read Channel Development, IBM Microelectronics, Burlington, VT
+             + Determined and resolved problems with interaction of read
+               channel and mobile disk drives.
+             + Interacted with Japanese coworkers, aiding communication and
+               cooperation.
+             + Tested performance of read channel chips.
+
+     Research Assistant (7/98 to 5/99)
+     C & C Media Research Lab, Nippon Electronics Corporation, (N.E.C.)
+     Tokyo, Japan
+             + Simulation, testing and design of echo-cancellation DSP
+               adaptive filter systems for speech recognition systems.
+             + Learned Japanese technical business practices.
+
+     Firmware co-op Engineer (6/97 to 11/97)
+     Storage Systems Division, International Business Machines, (I.B.M.)
+     Rochester, MN
+             + Studied microcode and documentation (in Japanese) for hard
+               drive interface processor for presentation to co-workers.
+             + Researched performance of high-end hard disk drives, proving
+               viability of new cache indexing algorithm.
+
+Education:
+
+     Michigan Technological University (M.T.U.), Houghton, MI 49931
+          BS in Electrical Engineering, Computer Engineering Option.
+          Certificate in Modern Language and Area Study in French.
+           G.P.A.: 3.51 / 4.0      Graduation date: 11/99
+
+     Japan Center for Michigan Universities, Hikone-shi, Shiga-ken, 522,
+     Japan
+          One-year thematic focusing on Japanese language and culture. (9/94
+          to 4/95)
+
+Computer Skills:
+
+        o C, C shell and bash scripting, HTML, and cgi script programming
+        o C++, PowerPC assembly, Fortran and RISC/MIPS assembly programming
+          familiarity
+        o Linux, Unix, Windows, and MS-DOS computer operating systems
+        o PC assembly, repair, and network troubleshooting
+
+Accomplishments:
+
+   * Served as a prime contact between Japanese and American development
+     teams.
+   * Spent total of 3 months problem solving on site in Japan, while
+     maintaining close working relationship with American team members.
+   * Solved problems including usage issues, product issues, and test screen
+     issues.
+   * Increased range of early user hardware lab tests by automating test
+     equipment via GPIB and C code.
+   * Assisted in bringing Internet access to rural Japan and a small village
+     in Benin, Africa, during college years.
+
+Language Skills:
+
+   * Japanese working vocabulary and basic communication skills
+   * Able to read approximately 250 Japanese kanji.
+   * French survival skills.
+   * Willingness and ability to learn more languages.

@@ -1,0 +1,27 @@
+To Zaurus-general 
+CC spiralman@softhome.net 
+Subj: ANN: changeSwap.sh script to add / remove swap file
+
+Hello all,
+
+I've created a fairly simple script to ease making a swap file and
+removing it.  For Linux newbies, that is the method to adjust the
+internal memory / storage balance on the fly.  The script should be
+now available for general consumption at:
+http://members.surfbest.net/hrabbey@surfbest.net/Projects/ChangeSwap/
+
+I primarily use it to remove the swap before installing new
+programs, and to put it back on the internal storage when done. 
+The script saves some typing and arithmetic.
+
+A great big thanks to Thomas "Spiralman" (the creator of opie-sh)
+for making the Qt interface possible.  I'd ask that this script be
+stuck with Gonz's other useful ones, but think it better be
+quarantined till it stabilizes, or gets converted to C++.  The
+main thing it still needs to be functional is a good icon.  The
+current one is stolen from Gonz's filesystem mounter.  I'd love to
+get a few icon submissions from the list.
+ 
+Enjoy,
+
+Howard Abbey

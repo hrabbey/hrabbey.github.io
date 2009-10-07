@@ -1,0 +1,104 @@
+                               Howard R. Abbey
+
+ Permanent Address:
+ 26827 Linwood St.
+ Roseville, MI 48066-3487
+ Tel.: (810)773-8462
+
+                         E-mail: hrabbey@iname.com
+                http://www.bitsmart.com/hrabbey/resume.html
+
+----------------------------------------------------------------------------
+
+Summary:
+
+     Firmware and test programming experience combined with excellent
+     educational record. Well versed in Japanese practices and comfort
+     working in a multi-national environment.
+
+Education:
+
+     Michigan Technological University (M.T.U.), Houghton, MI 49931
+          BS in Electrical Engineering, Computer Engineering Option.
+          Certificate in Modern Language and Area Study in French.
+          G.P.A.: 3.51 / 4.0
+          Graduation date: 11/99
+
+     Japan Center for Michigan Universities, Hikone-shi, Shiga-ken, 522,
+     Japan
+          One-year thematic focusing on Japanese language and culture. (9/94
+          to 4/95)
+
+Experience:
+
+     Firmware Engineer (12/99 to 1/00)
+     Enterprise Storage Division, Western Digital Corporation, Rochester, MN
+             + Created Visual C++ test software to ensure excellent quality of
+               server SCSI and Fibre Channel hard disk drives.
+             + Examined firmware for compliance with customer requests for
+               SCSI mode page functionality.
+             + Clarification of problem areas to allow quick resolution.
+
+     Research Assistant Co-op (7/98 to 5/99)
+     C & C Media Research Lab, Nippon Electronics Corporation, (N.E.C.)
+     Tokyo, Japan
+             + Simulation, testing and design of echo-cancellation DSP
+               adaptive filter systems for speech recognition systems.
+             + Learned Japanese technical business practices.
+
+     Firmware Co-op Engineer (6/97 to 11/97)
+     Storage Systems Division, International Business Machines, (I.B.M.)
+     Rochester, MN
+             + Studied microcode and documentation (in Japanese) for hard
+               drive interface processor for presentation to co-workers.
+             + Researched performance of high-end hard disk drives.
+
+     System Administrator / Lab Consultant (9/95 to 5/97)
+     Foreign Language Lab, Michigan Technical University, Houghton, MI
+             + Maintained and improved language learning computer software.
+
+     Volunteer Computer Support (6/96 to 8/96)
+     Wycliffe Bible Translators, Togo, Western Africa
+             + Upgraded e-mail, virus protection, and other software.
+             + Configured specialized language entry software.
+             + Maintained Windows network.
+             + Answered users' questions.
+
+Computer Skills:
+
+        + C, C shell script, HTML, and cgi script programming
+        + C++, PowerPC assembly, Fortran and RISC/MIPS assembly programming
+          familiarity
+        + PC assembly, repair, and network troubleshooting
+        + Windows, Unix / Linux, and MS-DOS computer operating systems
+        + Macintosh and IBM OS/2 familiarity
+
+Leadership Experience:
+
+     MTU Undergraduate Student Government (12/97 to 5/98)
+          Participated in decision making on issues related to student life.
+          Attempted to improve student conditions through keeping informed
+          of campus issues, and serving on the Student Issues and the
+          Teaching Standards committees. Also involved in General Education
+          Reform and residence hall optional lifestyle decisions.
+
+     InterVarsity Christian Fellowship (9/93 to 12/99)
+          Served on Executive Committee as Prayer and Outreach Coordinator.
+          (9/96 to 5/97) Participated in month long Student Leadership
+          Training program (Summer 1999)
+
+Accomplishments:
+
+        + Assisted in bringing Internet access to rural Japan and a small
+          village in Benin, Africa.
+        + Part of team that designed student housing community living
+          agreement.
+        + As part of the General Education Reform committee, improved
+          awareness of importance of international experience for
+          engineering students.
+
+Language Skills:
+
+        + Japanese working vocabulary and basic communication skills.
+        + French survival skills.
+        + Willingness and ability to learn more languages.

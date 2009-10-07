@@ -1,0 +1,105 @@
+#!/bin/bash
+#     Script to convert from deb to ipk
+# takes important stuff and repackages it.
+# Depends on ipkg-build. 
+# currently specifically for tcs, but hopefully can be generalized
+# hopefully, maybe alien will support ipk soon.
+#
+# Copyright under GPL by Howard Abbey
+#
+# Configuration
+PKG=tcs_1-6
+NAME=tcs
+# main file, script expects it to be in usr/bin
+MAINFILE=tcs
+USER="Howard Abbey <hrabbey@bigfoot.com>"
+WORKDIR=/tmp
+##
+# This script depends on:
+#ipkg-build, zip, and misc. common utils.
+# should check for their existence.
+##
+# should compare my comments to those alien uses.
+# should convince / beg alien to support ipks
+# should make sure root (cause can't chown to root)
+# grep should $0 for more.
+##
+# seems to need a capitalization aware filesystem (like ext2, unlike vfat)
+# should test can write Capitals
+#cd $WORKDIR
+#touch TEST
+## if ...NOT EXIST TEST echo error, can't write capitals to this directory then exit 1
+#rm TEST || rm test
+# should Check if enough room: 3x size of deb?
+# Unpack
+echo Preparing to repackage $NAME
+mkdir $WORKDIR/Deb2ipk
+cd $WORKDIR/Deb2ipk
+dpkg-deb -e $WORKDIR/$PKG.deb DEBIAN
+dpkg-deb -x $WORKDIR/$PKG.deb DEBIAN
+# Package copyright Notice: since won't be in ipk, bug interactively.
+#  Sharing ipk w/o this copyright maybe a violation...
+#  and no room / appropriate place for it on the handheld.
+more DEBIAN/usr/share/doc/$NAME/copyright
+mkdir $PKG
+mkdir $PKG/CONTROL
+### Custom for package:
+# should generalize or auto detect if possible
+mkdir $PKG/usr
+mkdir $PKG/usr/bin
+cp -a DEBIAN/usr/bin/$MAINFILE $PKG/usr/bin/$MAINFILE
+cp DEBIAN/control $PKG/CONTROL
+echo " Converted" from .deb file by $USER on `date +%D`>> $PKG/CONTROL/control
+#
+#
+echo Rest must be done manually.  See script source.
+exit 2
+#
+#
+#####  START MANUAL WORK ####
+#    You can't just cut and paste!  You need to replace the variables!
+# should fix script so completely automatic.
+#
+# Control file changes:
+#vi $WORKDIR/Deb2ipk/$PKG/CONTROL/control
+# text falls under Zaurus specified Console category
+#  change: Section: text TO: Section Console/text
+#sed....
+# Depends: should be erased, since
+#  depends upon libc6 which is in the base, and not in a package.
+# Installed-Size: is wrong, 
+#  should recalculate with du.
+#change to: Installed-Size: `du -ks $PKG`
+#
+ipkg-build $PKG
+### Results on Zaurus:
+#BusyBox v0.52 (2001.08.30-07:09+0000) multi-call binary
+# 
+#Usage: find [PATH...] [EXPRESSION]
+# 
+#tar: Creation of compressed not internally
+#support by tar, pipe to busybox gunzip     
+###so ipkg-build not supported by Z's default Busybox!
+### Results on Desktop as non-root:
+#*** Warning: The following files have a UID greater than 99.
+#You probably want to chown these to a system user: 
+### So should do as root?  can't erase if chown to root unless root.  Ugh...
+mv $PKG_arm.ipk $WORKDIR
+# Make a zip so can bundle minimal documentation.
+echo "
+This is a repackaged ipk from a Debian GNU/Linux package.
+This ipk was put together by $USER,
+with a script called ipk-frm-deb (original, isn't it? ).
+--  
+" > $WORKDIR/copyright
+cat DEBIAN/usr/share/doc/$NAME/copyright >> $WORKDIR/copyright
+echo "
+This package is a subset of a Debian GNU/Linux package.  
+See its .deb version ( $PKG.deb ) for more complete documentation. 
+" > $WORKDIR/README
+cd $WORKDIR
+zip -9 $PKG.zip $PKG_arm.ipk copyright README 
+rm copyright README
+rm -rf $WORKDIR/Deb2ipk 
+echo Created:
+ls $WORKDIR/$PKG_arm.ipk $WORKDIR/$PKG.zip

@@ -1,0 +1,36 @@
+
+	Changes from ipk-frm-deb_wwwoffle ver. 0.02a to 0.02b.
+
+Apologies to all who couldn't get 0.02a working.  My fault.
+Removed comment on cache location (spool-dir = /var/cache/wwwoffle).
+ It's not standard enough that it doesn't need to be specified.
+Removed a few more unneeded files.
+Added packaging script version to README.
+
+	Changes from ipk-frm-deb_wwwoffle ver. 0.02 to 0.02a.
+
+Removed wwwoffle-tools and Debian menu file.
+Changed rc.d symlink to copied file so can install to flash.
+Moved cache back to standard location (/var/cache/wwwoffle).
+ Should be able to be installed to flash with rest of program.
+Wwwoffle now self starts after installation.
+README file changed slightly.
+
+	Changes from ipk-frm-deb_wwwoffle ver. 0.01 to 0.02
+
+Change in defaults (adjustable in /etc/wwwoffle/wwwoffle.conf:
+ remote proxy usage turned off
+ default cache size changed from unlimited to 5 meg
+
+Added / changed support scripts:
+ wwwoffled-configZaurusProxy.sh changed:
+   makes an initial backup file
+   supports Konqueror's config
+  wwwoffled-stopCaching and
+  wwwoffled-resumeCaching added
+   to temporarily stop caching pages with out stopping wwwoffle
+  wwwoffled-adjCacheSize added
+   to Adjust WWWOffLE cache size in meg
+
+README file changed slightly.
+
