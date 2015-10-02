@@ -1,4 +1,0 @@
-# Ignore for now, because a OpenShift repository, branched from a github repository
-#  Would like to have as a git submodule, and linked to original github repo...
-# Currently just a symlink to real repo.
-Slides
